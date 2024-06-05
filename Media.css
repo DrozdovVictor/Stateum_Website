@@ -1599,6 +1599,10 @@
 /* Objects Modal Media */
 
 @media (max-width: 850px) {
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
   .objects__tabs-modal-heading {
     padding: 0px !important;
     margin: 0px 30px;
