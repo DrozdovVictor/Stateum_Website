@@ -11,16 +11,6 @@ headerNavMobileContent.addEventListener('click', function (event) {
   event.stopPropagation()
 })
 
-/* News Section */
-const newsWatchBtn = document.querySelector('.news-tabs__bth-watch-all');
-const newsHeading = document.querySelector('.news__heading');
-
-window.addEventListener('load', function () {
-  if (window.innerWidth <= 768) {
-    newsHeading.append(newsWatchBtn);
-  }
-})
-
 /* News Section Tabs */
 const newsTabsBtns = document.querySelectorAll('.news-tabs__heading');
 const newsCardsWrapper = document.getElementById('news-tabs-content');
