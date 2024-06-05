@@ -294,6 +294,11 @@ main {
     font-size: 28px;
   }
 
+  .partner__row-item {
+    height: 150px;
+    row-gap: 14px;
+  }
+
   .partner__row-item-text {
     font-size: 24px !important;
   }

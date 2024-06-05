@@ -1,3 +1,14 @@
+@import url('../../Media.css');
+
+header {
+  background-image: none !important;
+  min-height: auto;
+}
+
+header + main {
+  margin-top: 60px;
+}
+
 @media (max-width: 1550px) {
   h3 {
     font-size: 30px;

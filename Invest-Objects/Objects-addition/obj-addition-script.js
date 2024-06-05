@@ -197,8 +197,10 @@ calculationBtnAdd.addEventListener('click', function () {
 })
 
 /* Security Modal */
+
 const objModalBtn = document.getElementById('obj-addition-content-calculation-modal-content-button');
 const objectsTabsModal = document.getElementById('objects-tabs-modal');
+const objectsModalBtnClose = document.getElementById('objects-modal-btn-close');
 
 function openObjectModal (elem) {
   elem.addEventListener('click', function () {
@@ -211,3 +213,9 @@ function openObjectModal (elem) {
 }
 
 openObjectModal(objModalBtn);
+
+objectsModalBtnClose.addEventListener('click', function () {
+  objectsTabsModal.classList.remove('active');
+  document.body.classList.remove('disable');
+  document.body.style.paddingRight = '0';
+})
