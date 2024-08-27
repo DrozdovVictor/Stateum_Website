@@ -1,0 +1,1965 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stateum Website</title>
+    <link rel="shortcut icon" href="Images/Header/web-logo.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="normalise.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="Media.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body id="body">
+    <header id="header">
+      <div class="container header__container">
+        <nav class="header__nav">
+          <img class="header__logo" src="Images/Header/logo.svg" alt="logo-img" />
+          <div class="header__nav-content">
+            <a href="#objects" class="header__nav-content-a">Проекты</a>
+            <a href="#header" class="header__nav-content-a">Как это работает</a>
+            <a href="#products" class="header__nav-content-a">О продукте</a>
+            <a href="#reviews" class="header__nav-content-a">Блог</a>
+            <a href="./Team/team-index.html" class="header__nav-content-a">Партнёрам</a>
+            <a href="#team" class="header__nav-content-a">Команда</a>
+            <a href="#footer" class="header__nav-content-a">Контакты</a>
+          </div>
+          <div class="header__nav-btns">
+            <a href="">
+              <svg class="header__nav-tg-img">
+                <path
+                  d="M27.2097 11.6545C27.2097 11.6545 29.1523 10.897 28.9904 12.7366C28.9365 13.4942 28.4508 16.1454 28.073 19.0131L26.778 27.5079C26.778 27.5079 26.67 28.7524 25.6987 28.9688C24.7274 29.1852 23.2704 28.2113 23.0005 27.9949C22.7847 27.8326 18.9534 25.3977 17.6043 24.2074C17.2265 23.8827 16.7948 23.2334 17.6582 22.476L23.3244 17.0653C23.9719 16.416 24.6194 14.9009 21.9213 16.7406L14.3666 21.8808C14.3666 21.8808 13.5032 22.4219 11.8843 21.9349L8.37671 20.8527C8.37671 20.8527 7.08161 20.0412 9.29408 19.2295C14.6904 16.6865 21.3278 14.0893 27.2097 11.6545Z"
+                />
+              </svg>
+            </a>
+            <a href="Invest-Bag/invest-bag-index.html" class="header__nav-btn">
+              Инвестировать
+              <img src="Images/Header/case-logo.svg" alt="little case-logo" />
+            </a>
+            <div class="header__nav-mobile" id="header__nav-mobile">
+              <div class="header__nav-mobile-content" id="header__nav-mobile-content">
+                <img class="header__logo" src="Images/Header/logo.svg" alt="logo-img" />
+                <ul class="header__nav-mobile-content-ul">
+                  <li class="header__nav-mobile-content-li">
+                    <a href="#objects" class="header__nav-mobile-content-text">Проекты</a>
+                  </li>
+                  <li class="header__nav-mobile-content-li">
+                    <a href="#header" class="header__nav-mobile-content-text">Как это работает</a>
+                  </li>
+                  <li class="header__nav-mobile-content-li">
+                    <a href="#products" class="header__nav-mobile-content-text">О продукте</a>
+                  </li>
+                  <li class="header__nav-mobile-content-li">
+                    <a href="#reviews" class="header__nav-mobile-content-text">Блог</a>
+                  </li>
+                  <li class="header__nav-mobile-content-li">
+                    <a href="#footer" class="header__nav-mobile-content-text">Партнёрам</a>
+                  </li>
+                  <li class="header__nav-mobile-content-li">
+                    <a href="#team" class="header__nav-mobile-content-text">Команда</a>
+                  </li>
+                  <li class="header__nav-mobile-content-li">
+                    <a href="#footer" class="header__nav-mobile-content-text">Контакты</a>
+                  </li>
+                  <li class="header__nav-mobile-content-li">
+                    <a href="Invest-Bag/invest-bag-index.html" class="header__nav-btn">
+                      Инвестировать
+                      <img src="Images/Header/case-logo.svg" alt="little case-logo" />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <h1 class="header__heading">Новый инструмент инвестирования в зарубежную недвижимость</h1>
+        <div class="header-content" id="header-content">
+          <div class="header-content-item header-content-item_first">
+            <h5 class="header-content-item__heading">Проверено</h5>
+            <p class="header-content-item__text">
+              Мы лично посетили более 100 объектов и выбрали самые доходные и надежные
+            </p>
+            <img
+              src="Images/Header/hexagon.svg"
+              alt="hexagon-img"
+              class="header-content-item__img"
+            />
+          </div>
+          <div class="header-content-item header-content-item_second">
+            <h5 class="header-content-item__heading">Доступно</h5>
+            <p class="header-content-item__text">Инвестиции в недвижимость от $ 10 000</p>
+            <img src="Images/Header/arrows.svg" alt="arrows-img" class="header-content-item__img" />
+          </div>
+          <div class="header-content-item header-content-item_third">
+            <h5 class="header-content-item__heading">Продумано</h5>
+            <p class="header-content-item__text">
+              Инвестиции распределены в 4-х странах: Индонезия, Тайланд, Грузия, Азербайджан
+            </p>
+            <img
+              src="Images/Header/hexagon.svg"
+              alt="hexagon-img"
+              class="header-content-item__img"
+            />
+          </div>
+          <div class="header-content-item header-content-item_fourth">
+            <h5 class="header-content-item__heading">Выгодно</h5>
+            <p class="header-content-item__text">Доходность от 10% годовых<br />в валюте</p>
+            <img src="Images/Header/arrows.svg" alt="arrows-img" class="header-content-item__img" />
+          </div>
+          <div class="header-content-item header-content-item_fifth">
+            <h5 class="header-content-item__heading">Надёжно</h5>
+            <p class="header-content-item__text">
+              Актив с низкой волатильностью, который не обесценится
+            </p>
+            <img
+              src="Images/Header/hexagon.svg"
+              alt="hexagon-img"
+              class="header-content-item__img"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="products" id="products">
+        <div class="container">
+          <h3 class="products__heading">Продукты</h3>
+          <div class="products-content">
+            <div class="products-content-item products-content-item_black">
+              <h5 class="products-item__heading">Инвестирование на ранней стадии строительства</h5>
+              <ul class="prodacts-item__ul-of-rules">
+                <li class="prodacts-item__li-of-rules">
+                  <img src="Images/Products/arrow.svg" alt="arrow-img" />
+                  Покупаем недвижимость на начальных этапах девелопмента
+                </li>
+                <li class="prodacts-item__li-of-rules">
+                  <img src="Images/Products/arrow.svg" alt="arrow-img" />
+                  Ждем окончания строительства и сдачи в эксплуатацию
+                </li>
+                <li class="prodacts-item__li-of-rules">
+                  <img src="Images/Products/arrow.svg" alt="arrow-img" />
+                  Продаем дороже первоначальной стоимости
+                </li>
+              </ul>
+              <ul class="prodacts-item__ul-of-pluses">
+                <li class="prodacts-item__li-of-pluses prodacts-item__li-of-pluses_clock">
+                  <img src="Images/Products/clock.svg" alt="clock-img" />
+                  Срок инвестиций — 1–3 года
+                </li>
+                <li class="prodacts-item__li-of-pluses prodacts-item__li-of-pluses_exchange">
+                  <img
+                    class="products-item-li__img"
+                    src="Images/Products/dollar.svg"
+                    alt="dollar-img"
+                  />
+                  Доходность — 15–20% годовых в валюте
+                </li>
+                <li class="prodacts-item__li-of-pluses prodacts-item__li-of-pluses_refund">
+                  <img
+                    class="products-item-li__img"
+                    src="Images/Products/refund.svg"
+                    alt="refund-img"
+                  />
+                  Возврат инвестиций и выплата дохода — после продажи объекта
+                </li>
+              </ul>
+              <h5 class="products__heading">Инвесторам, стремящимся увеличить свой капитал</h5>
+            </div>
+            <div class="products-content-item">
+              <h5 class="products-item__heading">Рентный доход<br />от недвижимости</h5>
+              <ul class="prodacts-item__ul-of-rules">
+                <li class="prodacts-item__li-of-rules">
+                  <img src="Images/Products/arrow.svg" alt="arrow-img" />
+                  Покупаем апартаменты (готовые или на позднем этапе строительства)
+                </li>
+                <li class="prodacts-item__li-of-rules">
+                  <img src="Images/Products/arrow.svg" alt="arrow-img" />
+                  Привлекаем управляющую компанию для эксплуатации объекта
+                </li>
+                <li class="prodacts-item__li-of-rules">
+                  <img src="Images/Products/arrow.svg" alt="arrow-img" />
+                  Сдаем недвижимость в аренду
+                </li>
+              </ul>
+              <ul class="prodacts-item__ul-of-pluses">
+                <li class="prodacts-item__li-of-pluses prodacts-item__li-of-pluses_clock">
+                  <svg
+                    width="13"
+                    height="13"
+                    viewBox="0 0 13 13"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M3.49281 7.3286C3.34204 7.3286 3.21369 7.27764 3.10774 7.17572C3.00587 7.0738 2.95494 6.94742 2.95494 6.79658C2.95494 6.64982 3.00587 6.52548 3.10774 6.42356C3.21369 6.32164 3.34204 6.27068 3.49281 6.27068H5.96824V2.88291C5.96824 2.73207 6.01918 2.6057 6.12105 2.50378C6.22291 2.40186 6.3472 2.3509 6.49389 2.3509C6.64465 2.3509 6.77097 2.40186 6.87284 2.50378C6.97471 2.6057 7.02565 2.73207 7.02565 2.88291V6.79658C7.02565 6.94742 6.97471 7.0738 6.87284 7.17572C6.77097 7.27764 6.64465 7.3286 6.49389 7.3286H3.49281ZM6.5 12.875C5.628 12.875 4.80693 12.7079 4.03679 12.3736C3.26666 12.0433 2.58821 11.5847 2.00144 10.9977C1.41467 10.4106 0.954219 9.73387 0.620086 8.96745C0.290029 8.19694 0.125 7.37344 0.125 6.49694C0.125 5.62452 0.290029 4.8051 0.620086 4.03867C0.954219 3.26817 1.41263 2.58939 1.99533 2.00234C2.58209 1.41529 3.26055 0.956655 4.03068 0.626439C4.80082 0.292146 5.62188 0.125 6.49389 0.125C7.36589 0.125 8.18696 0.292146 8.9571 0.626439C9.7313 0.956655 10.4098 1.41529 10.9924 2.00234C11.5792 2.58939 12.0397 3.26817 12.3738 4.03867C12.7079 4.8051 12.875 5.62452 12.875 6.49694C12.875 7.37344 12.7079 8.19694 12.3738 8.96745C12.0397 9.73387 11.5792 10.4106 10.9924 10.9977C10.4098 11.5847 9.73334 12.0433 8.96321 12.3736C8.19307 12.7079 7.372 12.875 6.5 12.875ZM6.5 11.4746C7.18864 11.4746 7.83245 11.3462 8.43145 11.0894C9.03452 10.8326 9.56424 10.4779 10.0206 10.0254C10.477 9.56876 10.8335 9.04083 11.0902 8.44155C11.347 7.83819 11.4753 7.18999 11.4753 6.49694C11.4753 5.80797 11.3449 5.16385 11.0841 4.56457C10.8274 3.96121 10.4709 3.43123 10.0145 2.97464C9.5622 2.51805 9.03452 2.16133 8.43145 1.9045C7.83245 1.64766 7.1866 1.51924 6.49389 1.51924C5.80525 1.51924 5.1594 1.64766 4.55633 1.9045C3.95733 2.16133 3.42965 2.51805 2.97327 2.97464C2.52097 3.43123 2.16647 3.96121 1.90976 4.56457C1.65712 5.16385 1.5308 5.80797 1.5308 6.49694C1.5308 7.18999 1.65712 7.83819 1.90976 8.44155C2.16647 9.04083 2.52301 9.56876 2.97939 10.0254C3.43576 10.4779 3.96345 10.8326 4.56244 11.0894C5.16551 11.3462 5.81136 11.4746 6.5 11.4746Z"
+                      fill="#fff"
+                    />
+                  </svg>
+                  Срок инвестиций — 3-5 лет
+                </li>
+                <li class="prodacts-item__li-of-pluses prodacts-item__li-of-pluses_exchange">
+                  <svg
+                    width="13"
+                    height="13"
+                    viewBox="0 0 13 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M6.5 12.875C5.628 12.875 4.80693 12.7079 4.03679 12.3736C3.26666 12.0433 2.58821 11.5847 2.00144 10.9977C1.41467 10.4106 0.954219 9.73387 0.620086 8.96745C0.290029 8.19694 0.125 7.37344 0.125 6.49694C0.125 5.62452 0.290029 4.8051 0.620086 4.03867C0.954219 3.26817 1.41263 2.58939 1.99533 2.00234C2.58209 1.41529 3.26055 0.956655 4.03068 0.626439C4.80082 0.292146 5.62188 0.125 6.49389 0.125C7.36589 0.125 8.18696 0.292146 8.9571 0.626439C9.7313 0.956655 10.4098 1.41529 10.9924 2.00234C11.5792 2.58939 12.0397 3.26817 12.3738 4.03867C12.7079 4.8051 12.875 5.62452 12.875 6.49694C12.875 7.37344 12.7079 8.19694 12.3738 8.96745C12.0397 9.73387 11.5792 10.4106 10.9924 10.9977C10.4098 11.5847 9.73334 12.0433 8.96321 12.3736C8.19307 12.7079 7.372 12.875 6.5 12.875ZM6.5 11.4746C7.18864 11.4746 7.83245 11.3462 8.43145 11.0894C9.03452 10.8326 9.56424 10.4779 10.0206 10.0254C10.477 9.56876 10.8335 9.04083 11.0902 8.44155C11.347 7.83819 11.4753 7.18999 11.4753 6.49694C11.4753 5.80797 11.3449 5.16385 11.0841 4.56457C10.8274 3.96121 10.4709 3.43123 10.0145 2.97464C9.5622 2.51805 9.03452 2.16133 8.43145 1.9045C7.83245 1.64766 7.1866 1.51924 6.49389 1.51924C5.80525 1.51924 5.1594 1.64766 4.55633 1.9045C3.95733 2.16133 3.42965 2.51805 2.97327 2.97464C2.52097 3.43123 2.16647 3.96121 1.90976 4.56457C1.65712 5.16385 1.5308 5.80797 1.5308 6.49694C1.5308 7.18999 1.65712 7.83819 1.90976 8.44155C2.16647 9.04083 2.52301 9.56876 2.97939 10.0254C3.43576 10.4779 3.96345 10.8326 4.56244 11.0894C5.16551 11.3462 5.81136 11.4746 6.5 11.4746ZM6.49389 9.89083C6.41239 9.89083 6.34516 9.86637 6.29219 9.81745C6.24329 9.76853 6.21884 9.70126 6.21884 9.61565V9.21205C5.76654 9.17536 5.38962 9.05306 5.08809 8.84514C4.79063 8.63315 4.59708 8.37224 4.50743 8.06241C4.49521 8.02164 4.48502 7.98291 4.47687 7.94622C4.46872 7.90953 4.46465 7.87284 4.46465 7.83615C4.46465 7.7057 4.50539 7.5997 4.58689 7.51817C4.67246 7.43255 4.78655 7.38975 4.92917 7.38975C5.03919 7.38975 5.13291 7.42032 5.21033 7.48147C5.28775 7.53855 5.35091 7.62212 5.39981 7.73219C5.44463 7.89526 5.53428 8.03591 5.66874 8.15414C5.80729 8.26828 5.99065 8.34167 6.21884 8.37428V6.88219L6.08437 6.85162C5.57502 6.73747 5.18792 6.56013 4.92306 6.3196C4.66227 6.075 4.53188 5.7509 4.53188 5.3473C4.53188 4.91517 4.68876 4.56049 5.00252 4.28327C5.32035 4.00606 5.72579 3.84299 6.21884 3.79406V3.39658C6.21884 3.21313 6.31052 3.1214 6.49389 3.1214C6.57131 3.1214 6.63447 3.14586 6.68337 3.19478C6.73634 3.24371 6.76282 3.31097 6.76282 3.39658V3.79406C7.18253 3.83891 7.535 3.96529 7.82023 4.1732C8.10954 4.38111 8.29698 4.63795 8.38255 4.94371C8.39477 4.9804 8.40292 5.01912 8.407 5.05989C8.41515 5.09658 8.41922 5.13327 8.41922 5.16996C8.41922 5.29634 8.37644 5.39826 8.29087 5.47572C8.20937 5.55318 8.10139 5.59191 7.96692 5.59191C7.75503 5.59191 7.59612 5.48183 7.49017 5.26169C7.43313 5.09862 7.34348 4.96613 7.22124 4.86421C7.09899 4.75821 6.94619 4.68687 6.76282 4.65018V6.06888L6.92785 6.09946C7.46165 6.20138 7.86098 6.37668 8.12584 6.62536C8.39477 6.86996 8.52924 7.20222 8.52924 7.62212C8.52924 8.08687 8.36218 8.45785 8.02804 8.73507C7.69799 9.01229 7.27625 9.17332 6.76282 9.21817V9.61565C6.76282 9.70126 6.73634 9.76853 6.68337 9.81745C6.63447 9.86637 6.57131 9.89083 6.49389 9.89083ZM6.21884 5.92824V4.64406C5.9988 4.67668 5.82562 4.7521 5.69931 4.87032C5.57299 4.98855 5.50983 5.12716 5.50983 5.28615C5.50983 5.43699 5.5628 5.56337 5.66874 5.66529C5.77876 5.76721 5.94787 5.85078 6.17605 5.91601L6.21884 5.92824ZM6.76282 7.01061V8.37428C7.02361 8.34167 7.2192 8.26625 7.34959 8.14802C7.47999 8.0298 7.54518 7.87896 7.54518 7.6955C7.54518 7.53243 7.49425 7.3979 7.39238 7.29191C7.29051 7.18591 7.11529 7.10234 6.86673 7.04119L6.76282 7.01061Z"
+                      fill="#fff"
+                    />
+                  </svg>
+                  Доходность — 10–12% годовых в валюте
+                </li>
+                <li class="prodacts-item__li-of-pluses prodacts-item__li-of-pluses_refund">
+                  <svg
+                    width="16"
+                    height="13"
+                    viewBox="0 0 16 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M7.63565 2.98076C7.78729 2.98076 7.91698 3.03579 8.02472 3.14586C8.13247 3.25594 8.18634 3.38843 8.18634 3.54335V7.59155L7.62368 5.83651L9.5391 8.45989C9.63887 8.59442 9.68276 8.74119 9.67079 8.90018C9.65882 9.0551 9.58899 9.17944 9.46129 9.2732C9.32561 9.37104 9.18196 9.40773 9.03032 9.38327C8.87868 9.35474 8.747 9.26709 8.63527 9.12032L7.23461 7.23687C7.18274 7.16757 7.14283 7.09826 7.1149 7.02896C7.09096 6.95558 7.07899 6.87812 7.07899 6.79658V3.54335C7.07899 3.38843 7.13286 3.25594 7.2406 3.14586C7.34834 3.03579 7.48003 2.98076 7.63565 2.98076ZM7.85713 0.125C8.48363 0.125 9.09616 0.22488 9.69473 0.42464C10.2933 0.620324 10.846 0.897542 11.3528 1.25629C11.8635 1.61097 12.3005 2.02476 12.6636 2.49766C12.8153 2.68112 12.8831 2.87068 12.8671 3.06637C12.8552 3.26205 12.7734 3.41697 12.6217 3.53112C12.4621 3.66157 12.2905 3.70845 12.107 3.67176C11.9274 3.63507 11.7678 3.53723 11.6281 3.37824C11.3248 2.9991 10.9777 2.67092 10.5866 2.3937C10.1995 2.11649 9.77454 1.90246 9.31165 1.75162C8.85275 1.60078 8.3679 1.52536 7.85713 1.52536C7.29048 1.52536 6.75376 1.61709 6.24697 1.80054C5.74019 1.98399 5.27929 2.24083 4.86428 2.57104C4.44927 2.90126 4.09412 3.29059 3.79883 3.73903C3.50752 4.18339 3.29403 4.6726 3.15836 5.20665H4.01431C4.17393 5.20665 4.29364 5.24538 4.37345 5.32284C4.45725 5.4003 4.49716 5.49814 4.49317 5.61637C4.48918 5.73459 4.44528 5.85486 4.36148 5.97716L2.82914 8.12356C2.72539 8.26217 2.60169 8.33351 2.45803 8.33759C2.31438 8.33759 2.19067 8.26625 2.08692 8.12356L0.554582 5.98327C0.466792 5.86097 0.420901 5.74071 0.416911 5.62248C0.412921 5.50018 0.45083 5.4003 0.530639 5.32284C0.614439 5.24538 0.738143 5.20665 0.901752 5.20665H1.74573C1.89338 4.48507 2.15276 3.81649 2.52387 3.2009C2.89898 2.58123 3.35788 2.04107 3.90058 1.5804C4.44728 1.11972 5.05582 0.76301 5.72622 0.510252C6.39662 0.253417 7.10692 0.125 7.85713 0.125ZM7.85713 12.875C7.23062 12.875 6.61809 12.7751 6.01952 12.5754C5.42095 12.3797 4.86627 12.1025 4.3555 11.7437C3.84871 11.385 3.41375 10.9712 3.05062 10.5023C2.89898 10.3148 2.82914 10.1252 2.84112 9.93363C2.85708 9.73795 2.93888 9.58099 3.08653 9.46277C3.25014 9.33231 3.42173 9.28747 3.6013 9.32824C3.78486 9.36493 3.94847 9.46073 4.09213 9.61565C4.38742 9.99478 4.7306 10.325 5.12166 10.6063C5.51273 10.8835 5.93771 11.0975 6.39662 11.2484C6.85552 11.3992 7.34236 11.4746 7.85713 11.4746C8.42377 11.4746 8.96049 11.3829 9.46728 11.1995C9.97406 11.0201 10.435 10.7653 10.85 10.4351C11.265 10.1008 11.6181 9.70941 11.9094 9.26097C12.2047 8.81253 12.4222 8.32332 12.5619 7.79334H11.7059C11.5423 7.79334 11.4186 7.75462 11.3348 7.67716C11.255 7.59562 11.2171 7.49574 11.2211 7.37752C11.2251 7.25929 11.269 7.13903 11.3528 7.01673L12.8851 4.87644C12.9889 4.73783 13.1126 4.66853 13.2562 4.66853C13.3999 4.66445 13.5216 4.73375 13.6213 4.87644L15.1537 7.01673C15.2455 7.13903 15.2914 7.26133 15.2914 7.38363C15.2953 7.50186 15.2554 7.5997 15.1716 7.67716C15.0918 7.75462 14.9701 7.79334 14.8065 7.79334H13.9625C13.8189 8.51493 13.5595 9.18351 13.1844 9.7991C12.8133 10.4147 12.3544 10.9528 11.8077 11.4135C11.265 11.8742 10.6584 12.2329 9.98803 12.4897C9.31763 12.7466 8.60733 12.875 7.85713 12.875Z"
+                      fill="#fff"
+                    />
+                  </svg>
+                  Выплата дохода — ежеквартально
+                </li>
+              </ul>
+              <h5 class="products__heading">
+                Инвесторам, которым требуется регулярный стабильный доход
+              </h5>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="objects" id="objects">
+        <div class="container">
+          <h3 class="objects__heading">
+            Проверенные инвестиционные объекты
+            <button type="button" class="objects__seeMore-link" id="objects-seeMore-link">
+              Смотреть всё
+              <i class="ri-arrow-right-line"></i>
+            </button>
+          </h3>
+          <div class="object-tabs">
+            <div class="tabs-heading">
+              <button class="odject-tabs__button active" type="button">Прирост капитала</button>
+              <button class="odject-tabs__button" type="button">Рентный доход</button>
+              <button
+                type="button"
+                class="odject-tabs__button odject-tabs__button_absolute"
+                id="odject-tabs-button"
+              >
+                Смотреть все
+                <i class="odject-tabs__btn-arrow-right ri-arrow-right-line"></i>
+              </button>
+            </div>
+            <div class="objects__tabs-modal" id="objects-tabs-modal">
+              <div class="objects__tabs-modal-content">
+                <h3 class="objects__tabs-modal-heading">
+                  Чтобы разблокировать доступ к объектам, введите код активации
+                </h3>
+                <p class="objects__tabs-modal-text">
+                  Его можно получить
+                  <a href="Team/team-index.html" class="objects__tabs-modal-mark">написав нам</a>
+                </p>
+                <form
+                  class="objects__tabs-modal-form"
+                  id="objects__tabs-modal-form"
+                  action="Invest-Objects/objects-index.html"
+                  method="get"
+                >
+                  <div class="input-wrapper">
+                    <input
+                      class="objects__tabs-modal-input"
+                      type="password"
+                      required
+                      placeholder="Введите код"
+                      minlength="5"
+                    />
+                    <p class="error-text" id="error-text">Error</p>
+                  </div>
+                  <button
+                    class="objects__tabs-modal-btn"
+                    form="objects__tabs-modal-form"
+                    type="submit"
+                  >
+                    Разблокировать
+                    <i class="objects__tabs-modal-arrow ri-arrow-right-line"></i>
+                  </button>
+                </form>
+              </div>
+              <button
+                type="button"
+                class="objects__tabs-modal-btn-close"
+                id="objects-modal-btn-close"
+              >
+                <i class="ri-close-large-fill"></i>
+              </button>
+            </div>
+            <div class="tabs-content">
+              <div class="tabs-item">
+                <div class="tabs-item-slider-wrapper swiper">
+                  <i class="ri-arrow-left-s-line swiper-button-prev"></i>
+                  <div class="tabs-item-slider swiper-wrapper">
+                    <div class="tabs-item-slide swiper-slide">
+                      <p class="tabs-slide-item__text">Name of the object</p>
+                      <button class="tabs-slide-item__button" type="button">
+                        Thailand
+                        <img
+                          class="tabs-slide-item__btn-img"
+                          src="Images/Invest-Objects/thailand-flag.svg"
+                          alt="thailand-flag"
+                        />
+                      </button>
+                    </div>
+                    <div class="tabs-item-slide swiper-slide">
+                      <p class="tabs-slide-item__text">Name of the object</p>
+                      <button class="tabs-slide-item__button" type="button">
+                        Indonesia
+                        <img
+                          class="tabs-slide-item__btn-img"
+                          src="Images/Invest-Objects/indonesia-flag.svg"
+                          alt="indonesia-flag"
+                        />
+                      </button>
+                    </div>
+                    <div class="tabs-item-slide swiper-slide">
+                      <p class="tabs-slide-item__text">Name of the object</p>
+                      <button class="tabs-slide-item__button" type="button">
+                        Thailand
+                        <img
+                          class="tabs-slide-item__btn-img"
+                          src="Images/Invest-Objects/thailand-flag.svg"
+                          alt="thailand-flag"
+                        />
+                      </button>
+                    </div>
+                  </div>
+                  <i class="ri-arrow-right-s-line swiper-button-next"></i>
+                  <div class="tabs-slider-points swiper-pagination">
+                    <button class="tabs-slider-point active" type="button"></button>
+                    <button class="tabs-slider-point" type="button"></button>
+                    <button class="tabs-slider-point" type="button"></button>
+                  </div>
+                </div>
+                <div class="tabs-item-content">
+                  <p class="tabs-item-text">Собрано</p>
+                  <div class="collect-block">
+                    <p class="tabs-item-number">$75 000 (50%)</p>
+                    <p class="tabs-item-number">$150 000</p>
+                    <div class="tabs-range">
+                      <div class="tabs-range-fullness"></div>
+                    </div>
+                  </div>
+                  <ul class="tabs-item-ul">
+                    <li class="tabs-item-li">
+                      <p class="tabs-item-li__text">
+                        Стоимость объекта
+                        <i class="ri-question-line"></i>
+                      </p>
+                      <div class="tabs-item-li__border"></div>
+                      <p class="tabs-item-number">$150 000</p>
+                    </li>
+                    <li class="tabs-item-li">
+                      <p class="tabs-item-li__text">
+                        Количество инвесторов
+                        <i class="ri-question-line"></i>
+                      </p>
+                      <div class="tabs-item-li__border"></div>
+                      <p class="tabs-item-number">10</p>
+                    </li>
+                    <li class="tabs-item-li">
+                      <p class="tabs-item-li__text">Минимальный чек инвестиции</p>
+                      <div class="tabs-item-li__border"></div>
+                      <p class="tabs-item-number">$15 000</p>
+                    </li>
+                    <li class="tabs-item-li">
+                      <p class="tabs-item-li__text">
+                        Срок возврата инвестиций
+                        <i class="ri-question-line"></i>
+                      </p>
+                      <div class="tabs-item-li__border"></div>
+                      <p class="tabs-item-number">36 мес</p>
+                    </li>
+                  </ul>
+                  <div class="btn-row">
+                    <a
+                      href="Invest-Objects/Objects-addition/obj-additon-index.html"
+                      class="tabs-item-btn"
+                      >Подробнее</a
+                    >
+                    <button class="tabs-item-case-btn" type="button">
+                      <img src="Images/Invest-Objects/case.svg" alt="case-img" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="tabs-item">
+                <div class="tabs-item-slider-wrapper swiper">
+                  <i class="ri-arrow-left-s-line swiper-button-prev"></i>
+                  <div class="tabs-item-slider swiper-wrapper">
+                    <div class="tabs-item-slide swiper-slide">
+                      <p class="tabs-slide-item__text">Name of the object</p>
+                      <button class="tabs-slide-item__button" type="button">
+                        Indonesia
+                        <img
+                          class="tabs-slide-item__btn-img"
+                          src="Images/Invest-Objects/indonesia-flag.svg"
+                          alt="thailand-flag"
+                        />
+                      </button>
+                    </div>
+                    <div class="tabs-item-slide swiper-slide">
+                      <p class="tabs-slide-item__text">Name of the object</p>
+                      <button class="tabs-slide-item__button" type="button">
+                        Indonesia
+                        <img
+                          class="tabs-slide-item__btn-img"
+                          src="Images/Invest-Objects/indonesia-flag.svg"
+                          alt="indonesia-flag"
+                        />
+                      </button>
+                    </div>
+                    <div class="tabs-item-slide swiper-slide">
+                      <p class="tabs-slide-item__text">Name of the object</p>
+                      <button class="tabs-slide-item__button" type="button">
+                        Thailand
+                        <img
+                          class="tabs-slide-item__btn-img"
+                          src="Images/Invest-Objects/thailand-flag.svg"
+                          alt="thailand-flag"
+                        />
+                      </button>
+                    </div>
+                  </div>
+                  <i class="ri-arrow-right-s-line swiper-button-next"></i>
+                  <div class="tabs-slider-points swiper-pagination">
+                    <button class="tabs-slider-point active" type="button"></button>
+                    <button class="tabs-slider-point" type="button"></button>
+                    <button class="tabs-slider-point" type="button"></button>
+                  </div>
+                </div>
+                <div class="tabs-item-content">
+                  <p class="tabs-item-text">Собрано</p>
+                  <div class="collect-block">
+                    <p class="tabs-item-number">$75 000 (50%)</p>
+                    <p class="tabs-item-number">$150 000</p>
+                    <div class="tabs-range">
+                      <div class="tabs-range-fullness"></div>
+                    </div>
+                  </div>
+                  <ul class="tabs-item-ul">
+                    <li class="tabs-item-li">
+                      <p class="tabs-item-li__text">
+                        Стоимость объекта
+                        <i class="ri-question-line"></i>
+                      </p>
+                      <div class="tabs-item-li__border"></div>
+                      <p class="tabs-item-number">$150 000</p>
+                    </li>
+                    <li class="tabs-item-li">
+                      <p class="tabs-item-li__text">
+                        Количество инвесторов
+                        <i class="ri-question-line"></i>
+                      </p>
+                      <div class="tabs-item-li__border"></div>
+                      <p class="tabs-item-number">10</p>
+                    </li>
+                    <li class="tabs-item-li">
+                      <p class="tabs-item-li__text">Минимальный чек инвестиции</p>
+                      <div class="tabs-item-li__border"></div>
+                      <p class="tabs-item-number">$15 000</p>
+                    </li>
+                    <li class="tabs-item-li">
+                      <p class="tabs-item-li__text">
+                        Срок возврата инвестиций
+                        <i class="ri-question-line"></i>
+                      </p>
+                      <div class="tabs-item-li__border"></div>
+                      <p class="tabs-item-number">36 мес</p>
+                    </li>
+                  </ul>
+                  <div class="btn-row">
+                    <a
+                      href="Invest-Objects/Objects-addition/obj-additon-index.html"
+                      class="tabs-item-btn"
+                      >Подробнее</a
+                    >
+                    <button class="tabs-item-case-btn" type="button">
+                      <img src="Images/Invest-Objects/case.svg" alt="case-img" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="tabs-item">
+                <div class="tabs-item-slider-wrapper swiper">
+                  <i class="ri-arrow-left-s-line swiper-button-prev"></i>
+                  <div class="tabs-item-slider swiper-wrapper">
+                    <div class="tabs-item-slide swiper-slide">
+                      <p class="tabs-slide-item__text">Name of the object</p>
+                      <button class="tabs-slide-item__button" type="button">
+                        Thailand
+                        <img
+                          class="tabs-slide-item__btn-img"
+                          src="Images/Invest-Objects/thailand-flag.svg"
+                          alt="thailand-flag"
+                        />
+                      </button>
+                    </div>
+                    <div class="tabs-item-slide swiper-slide">
+                      <p class="tabs-slide-item__text">Name of the object</p>
+                      <button class="tabs-slide-item__button" type="button">
+                        Indonesia
+                        <img
+                          class="tabs-slide-item__btn-img"
+                          src="Images/Invest-Objects/indonesia-flag.svg"
+                          alt="indonesia-flag"
+                        />
+                      </button>
+                    </div>
+                    <div class="tabs-item-slide swiper-slide">
+                      <p class="tabs-slide-item__text">Name of the object</p>
+                      <button class="tabs-slide-item__button" type="button">
+                        Thailand
+                        <img
+                          class="tabs-slide-item__btn-img"
+                          src="Images/Invest-Objects/thailand-flag.svg"
+                          alt="thailand-flag"
+                        />
+                      </button>
+                    </div>
+                  </div>
+                  <i class="ri-arrow-right-s-line swiper-button-next"></i>
+                  <div class="tabs-slider-points swiper-pagination">
+                    <button class="tabs-slider-point active" type="button"></button>
+                    <button class="tabs-slider-point" type="button"></button>
+                    <button class="tabs-slider-point" type="button"></button>
+                  </div>
+                </div>
+                <div class="tabs-item-content">
+                  <p class="tabs-item-text">Собрано</p>
+                  <div class="collect-block">
+                    <p class="tabs-item-number">$75 000 (50%)</p>
+                    <p class="tabs-item-number">$150 000</p>
+                    <div class="tabs-range">
+                      <div class="tabs-range-fullness"></div>
+                    </div>
+                  </div>
+                  <ul class="tabs-item-ul">
+                    <li class="tabs-item-li">
+                      <p class="tabs-item-li__text">
+                        Стоимость объекта
+                        <i class="ri-question-line"></i>
+                      </p>
+                      <div class="tabs-item-li__border"></div>
+                      <p class="tabs-item-number">$150 000</p>
+                    </li>
+                    <li class="tabs-item-li">
+                      <p class="tabs-item-li__text">
+                        Количество инвесторов
+                        <i class="ri-question-line"></i>
+                      </p>
+                      <div class="tabs-item-li__border"></div>
+                      <p class="tabs-item-number">10</p>
+                    </li>
+                    <li class="tabs-item-li">
+                      <p class="tabs-item-li__text">Минимальный чек инвестиции</p>
+                      <div class="tabs-item-li__border"></div>
+                      <p class="tabs-item-number">$15 000</p>
+                    </li>
+                    <li class="tabs-item-li">
+                      <p class="tabs-item-li__text">
+                        Срок возврата инвестиций
+                        <i class="ri-question-line"></i>
+                      </p>
+                      <div class="tabs-item-li__border"></div>
+                      <p class="tabs-item-number">36 мес</p>
+                    </li>
+                  </ul>
+                  <div class="btn-row">
+                    <a
+                      href="Invest-Objects/Objects-addition/obj-additon-index.html"
+                      class="tabs-item-btn"
+                      >Подробнее</a
+                    >
+                    <button class="tabs-item-case-btn" type="button">
+                      <img src="Images/Invest-Objects/case.svg" alt="case-img" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="tabs-item">
+                <div class="tabs-item-slider-wrapper swiper">
+                  <i class="ri-arrow-left-s-line swiper-button-prev"></i>
+                  <div class="tabs-item-slider swiper-wrapper">
+                    <div class="tabs-item-slide swiper-slide">
+                      <p class="tabs-slide-item__text">Name of the object</p>
+                      <button class="tabs-slide-item__button" type="button">
+                        Indonesia
+                        <img
+                          class="tabs-slide-item__btn-img"
+                          src="Images/Invest-Objects/indonesia-flag.svg"
+                          alt="thailand-flag"
+                        />
+                      </button>
+                    </div>
+                    <div class="tabs-item-slide swiper-slide">
+                      <p class="tabs-slide-item__text">Name of the object</p>
+                      <button class="tabs-slide-item__button" type="button">
+                        Indonesia
+                        <img
+                          class="tabs-slide-item__btn-img"
+                          src="Images/Invest-Objects/indonesia-flag.svg"
+                          alt="indonesia-flag"
+                        />
+                      </button>
+                    </div>
+                    <div class="tabs-item-slide swiper-slide">
+                      <p class="tabs-slide-item__text">Name of the object</p>
+                      <button class="tabs-slide-item__button" type="button">
+                        Thailand
+                        <img
+                          class="tabs-slide-item__btn-img"
+                          src="Images/Invest-Objects/thailand-flag.svg"
+                          alt="thailand-flag"
+                        />
+                      </button>
+                    </div>
+                  </div>
+                  <i class="ri-arrow-right-s-line swiper-button-next"></i>
+                  <div class="tabs-slider-points swiper-pagination">
+                    <button class="tabs-slider-point active" type="button"></button>
+                    <button class="tabs-slider-point" type="button"></button>
+                    <button class="tabs-slider-point" type="button"></button>
+                  </div>
+                </div>
+                <div class="tabs-item-content">
+                  <p class="tabs-item-text">Собрано</p>
+                  <div class="collect-block">
+                    <p class="tabs-item-number">$75 000 (50%)</p>
+                    <p class="tabs-item-number">$150 000</p>
+                    <div class="tabs-range">
+                      <div class="tabs-range-fullness"></div>
+                    </div>
+                  </div>
+                  <ul class="tabs-item-ul">
+                    <li class="tabs-item-li">
+                      <p class="tabs-item-li__text">
+                        Стоимость объекта
+                        <i class="ri-question-line"></i>
+                      </p>
+                      <div class="tabs-item-li__border"></div>
+                      <p class="tabs-item-number">$150 000</p>
+                    </li>
+                    <li class="tabs-item-li">
+                      <p class="tabs-item-li__text">
+                        Количество инвесторов
+                        <i class="ri-question-line"></i>
+                      </p>
+                      <div class="tabs-item-li__border"></div>
+                      <p class="tabs-item-number">10</p>
+                    </li>
+                    <li class="tabs-item-li">
+                      <p class="tabs-item-li__text">Минимальный чек инвестиции</p>
+                      <div class="tabs-item-li__border"></div>
+                      <p class="tabs-item-number">$15 000</p>
+                    </li>
+                    <li class="tabs-item-li">
+                      <p class="tabs-item-li__text">
+                        Срок возврата инвестиций
+                        <i class="ri-question-line"></i>
+                      </p>
+                      <div class="tabs-item-li__border"></div>
+                      <p class="tabs-item-number">36 мес</p>
+                    </li>
+                  </ul>
+                  <div class="btn-row">
+                    <a
+                      href="Invest-Objects/Objects-addition/obj-additon-index.html"
+                      class="tabs-item-btn"
+                      >Подробнее</a
+                    >
+                    <button class="tabs-item-case-btn" type="button">
+                      <img src="Images/Invest-Objects/case.svg" alt="case-img" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="tabs-item">
+                <div class="tabs-item-slider-wrapper swiper">
+                  <i class="ri-arrow-left-s-line swiper-button-prev"></i>
+                  <div class="tabs-item-slider swiper-wrapper">
+                    <div class="tabs-item-slide swiper-slide">
+                      <p class="tabs-slide-item__text">Name of the object</p>
+                      <button class="tabs-slide-item__button" type="button">
+                        Thailand
+                        <img
+                          class="tabs-slide-item__btn-img"
+                          src="Images/Invest-Objects/thailand-flag.svg"
+                          alt="thailand-flag"
+                        />
+                      </button>
+                    </div>
+                    <div class="tabs-item-slide swiper-slide">
+                      <p class="tabs-slide-item__text">Name of the object</p>
+                      <button class="tabs-slide-item__button" type="button">
+                        Indonesia
+                        <img
+                          class="tabs-slide-item__btn-img"
+                          src="Images/Invest-Objects/indonesia-flag.svg"
+                          alt="indonesia-flag"
+                        />
+                      </button>
+                    </div>
+                    <div class="tabs-item-slide swiper-slide">
+                      <p class="tabs-slide-item__text">Name of the object</p>
+                      <button class="tabs-slide-item__button" type="button">
+                        Thailand
+                        <img
+                          class="tabs-slide-item__btn-img"
+                          src="Images/Invest-Objects/thailand-flag.svg"
+                          alt="thailand-flag"
+                        />
+                      </button>
+                    </div>
+                  </div>
+                  <i class="ri-arrow-right-s-line swiper-button-next"></i>
+                  <div class="tabs-slider-points swiper-pagination">
+                    <button class="tabs-slider-point active" type="button"></button>
+                    <button class="tabs-slider-point" type="button"></button>
+                    <button class="tabs-slider-point" type="button"></button>
+                  </div>
+                </div>
+                <div class="tabs-item-content">
+                  <p class="tabs-item-text">Собрано</p>
+                  <div class="collect-block">
+                    <p class="tabs-item-number">$75 000 (50%)</p>
+                    <p class="tabs-item-number">$150 000</p>
+                    <div class="tabs-range">
+                      <div class="tabs-range-fullness"></div>
+                    </div>
+                  </div>
+                  <ul class="tabs-item-ul">
+                    <li class="tabs-item-li">
+                      <p class="tabs-item-li__text">
+                        Стоимость объекта
+                        <i class="ri-question-line"></i>
+                      </p>
+                      <div class="tabs-item-li__border"></div>
+                      <p class="tabs-item-number">$150 000</p>
+                    </li>
+                    <li class="tabs-item-li">
+                      <p class="tabs-item-li__text">
+                        Количество инвесторов
+                        <i class="ri-question-line"></i>
+                      </p>
+                      <div class="tabs-item-li__border"></div>
+                      <p class="tabs-item-number">10</p>
+                    </li>
+                    <li class="tabs-item-li">
+                      <p class="tabs-item-li__text">Минимальный чек инвестиции</p>
+                      <div class="tabs-item-li__border"></div>
+                      <p class="tabs-item-number">$15 000</p>
+                    </li>
+                    <li class="tabs-item-li">
+                      <p class="tabs-item-li__text">
+                        Срок возврата инвестиций
+                        <i class="ri-question-line"></i>
+                      </p>
+                      <div class="tabs-item-li__border"></div>
+                      <p class="tabs-item-number">36 мес</p>
+                    </li>
+                  </ul>
+                  <div class="btn-row">
+                    <a
+                      href="Invest-Objects/Objects-addition/obj-additon-index.html"
+                      class="tabs-item-btn"
+                      >Подробнее</a
+                    >
+                    <button class="tabs-item-case-btn" type="button">
+                      <img src="Images/Invest-Objects/case.svg" alt="case-img" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="tabs-item">
+                <div class="tabs-item-slider-wrapper swiper">
+                  <i class="ri-arrow-left-s-line swiper-button-prev"></i>
+                  <div class="tabs-item-slider swiper-wrapper">
+                    <div class="tabs-item-slide swiper-slide">
+                      <p class="tabs-slide-item__text">Name of the object</p>
+                      <button class="tabs-slide-item__button" type="button">
+                        Indonesia
+                        <img
+                          class="tabs-slide-item__btn-img"
+                          src="Images/Invest-Objects/indonesia-flag.svg"
+                          alt="thailand-flag"
+                        />
+                      </button>
+                    </div>
+                    <div class="tabs-item-slide swiper-slide">
+                      <p class="tabs-slide-item__text">Name of the object</p>
+                      <button class="tabs-slide-item__button" type="button">
+                        Indonesia
+                        <img
+                          class="tabs-slide-item__btn-img"
+                          src="Images/Invest-Objects/indonesia-flag.svg"
+                          alt="indonesia-flag"
+                        />
+                      </button>
+                    </div>
+                    <div class="tabs-item-slide swiper-slide">
+                      <p class="tabs-slide-item__text">Name of the object</p>
+                      <button class="tabs-slide-item__button" type="button">
+                        Thailand
+                        <img
+                          class="tabs-slide-item__btn-img"
+                          src="Images/Invest-Objects/thailand-flag.svg"
+                          alt="thailand-flag"
+                        />
+                      </button>
+                    </div>
+                  </div>
+                  <i class="ri-arrow-right-s-line swiper-button-next"></i>
+                  <div class="tabs-slider-points swiper-pagination">
+                    <button class="tabs-slider-point active" type="button"></button>
+                    <button class="tabs-slider-point" type="button"></button>
+                    <button class="tabs-slider-point" type="button"></button>
+                  </div>
+                </div>
+                <div class="tabs-item-content">
+                  <p class="tabs-item-text">Собрано</p>
+                  <div class="collect-block">
+                    <p class="tabs-item-number">$75 000 (50%)</p>
+                    <p class="tabs-item-number">$150 000</p>
+                    <div class="tabs-range">
+                      <div class="tabs-range-fullness"></div>
+                    </div>
+                  </div>
+                  <ul class="tabs-item-ul">
+                    <li class="tabs-item-li">
+                      <p class="tabs-item-li__text">
+                        Стоимость объекта
+                        <i class="ri-question-line"></i>
+                      </p>
+                      <div class="tabs-item-li__border"></div>
+                      <p class="tabs-item-number">$150 000</p>
+                    </li>
+                    <li class="tabs-item-li">
+                      <p class="tabs-item-li__text">
+                        Количество инвесторов
+                        <i class="ri-question-line"></i>
+                      </p>
+                      <div class="tabs-item-li__border"></div>
+                      <p class="tabs-item-number">10</p>
+                    </li>
+                    <li class="tabs-item-li">
+                      <p class="tabs-item-li__text">Минимальный чек инвестиции</p>
+                      <div class="tabs-item-li__border"></div>
+                      <p class="tabs-item-number">$15 000</p>
+                    </li>
+                    <li class="tabs-item-li">
+                      <p class="tabs-item-li__text">
+                        Срок возврата инвестиций
+                        <i class="ri-question-line"></i>
+                      </p>
+                      <div class="tabs-item-li__border"></div>
+                      <p class="tabs-item-number">36 мес</p>
+                    </li>
+                  </ul>
+                  <div class="btn-row">
+                    <a
+                      href="Invest-Objects/Objects-addition/obj-additon-index.html"
+                      class="tabs-item-btn"
+                      >Подробнее</a
+                    >
+                    <button class="tabs-item-case-btn" type="button">
+                      <img src="Images/Invest-Objects/case.svg" alt="case-img" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="tabs-item">
+                <div class="tabs-item-slider-wrapper swiper">
+                  <i class="ri-arrow-left-s-line swiper-button-prev"></i>
+                  <div class="tabs-item-slider swiper-wrapper">
+                    <div class="tabs-item-slide swiper-slide">
+                      <p class="tabs-slide-item__text">Name of the object</p>
+                      <button class="tabs-slide-item__button" type="button">
+                        Thailand
+                        <img
+                          class="tabs-slide-item__btn-img"
+                          src="Images/Invest-Objects/thailand-flag.svg"
+                          alt="thailand-flag"
+                        />
+                      </button>
+                    </div>
+                    <div class="tabs-item-slide swiper-slide">
+                      <p class="tabs-slide-item__text">Name of the object</p>
+                      <button class="tabs-slide-item__button" type="button">
+                        Indonesia
+                        <img
+                          class="tabs-slide-item__btn-img"
+                          src="Images/Invest-Objects/indonesia-flag.svg"
+                          alt="indonesia-flag"
+                        />
+                      </button>
+                    </div>
+                    <div class="tabs-item-slide swiper-slide">
+                      <p class="tabs-slide-item__text">Name of the object</p>
+                      <button class="tabs-slide-item__button" type="button">
+                        Thailand
+                        <img
+                          class="tabs-slide-item__btn-img"
+                          src="Images/Invest-Objects/thailand-flag.svg"
+                          alt="thailand-flag"
+                        />
+                      </button>
+                    </div>
+                  </div>
+                  <i class="ri-arrow-right-s-line swiper-button-next"></i>
+                  <div class="tabs-slider-points swiper-pagination">
+                    <button class="tabs-slider-point active" type="button"></button>
+                    <button class="tabs-slider-point" type="button"></button>
+                    <button class="tabs-slider-point" type="button"></button>
+                  </div>
+                </div>
+                <div class="tabs-item-content">
+                  <p class="tabs-item-text">Собрано</p>
+                  <div class="collect-block">
+                    <p class="tabs-item-number">$75 000 (50%)</p>
+                    <p class="tabs-item-number">$150 000</p>
+                    <div class="tabs-range">
+                      <div class="tabs-range-fullness"></div>
+                    </div>
+                  </div>
+                  <ul class="tabs-item-ul">
+                    <li class="tabs-item-li">
+                      <p class="tabs-item-li__text">
+                        Стоимость объекта
+                        <i class="ri-question-line"></i>
+                      </p>
+                      <div class="tabs-item-li__border"></div>
+                      <p class="tabs-item-number">$150 000</p>
+                    </li>
+                    <li class="tabs-item-li">
+                      <p class="tabs-item-li__text">
+                        Количество инвесторов
+                        <i class="ri-question-line"></i>
+                      </p>
+                      <div class="tabs-item-li__border"></div>
+                      <p class="tabs-item-number">10</p>
+                    </li>
+                    <li class="tabs-item-li">
+                      <p class="tabs-item-li__text">Минимальный чек инвестиции</p>
+                      <div class="tabs-item-li__border"></div>
+                      <p class="tabs-item-number">$15 000</p>
+                    </li>
+                    <li class="tabs-item-li">
+                      <p class="tabs-item-li__text">
+                        Срок возврата инвестиций
+                        <i class="ri-question-line"></i>
+                      </p>
+                      <div class="tabs-item-li__border"></div>
+                      <p class="tabs-item-number">36 мес</p>
+                    </li>
+                  </ul>
+                  <div class="btn-row">
+                    <a
+                      href="Invest-Objects/Objects-addition/obj-additon-index.html"
+                      class="tabs-item-btn"
+                      >Подробнее</a
+                    >
+                    <button class="tabs-item-case-btn" type="button">
+                      <img src="Images/Invest-Objects/case.svg" alt="case-img" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="tabs-item">
+                <div class="tabs-item-slider-wrapper swiper">
+                  <i class="ri-arrow-left-s-line swiper-button-prev"></i>
+                  <div class="tabs-item-slider swiper-wrapper">
+                    <div class="tabs-item-slide swiper-slide">
+                      <p class="tabs-slide-item__text">Name of the object</p>
+                      <button class="tabs-slide-item__button" type="button">
+                        Indonesia
+                        <img
+                          class="tabs-slide-item__btn-img"
+                          src="Images/Invest-Objects/indonesia-flag.svg"
+                          alt="thailand-flag"
+                        />
+                      </button>
+                    </div>
+                    <div class="tabs-item-slide swiper-slide">
+                      <p class="tabs-slide-item__text">Name of the object</p>
+                      <button class="tabs-slide-item__button" type="button">
+                        Indonesia
+                        <img
+                          class="tabs-slide-item__btn-img"
+                          src="Images/Invest-Objects/indonesia-flag.svg"
+                          alt="indonesia-flag"
+                        />
+                      </button>
+                    </div>
+                    <div class="tabs-item-slide swiper-slide">
+                      <p class="tabs-slide-item__text">Name of the object</p>
+                      <button class="tabs-slide-item__button" type="button">
+                        Thailand
+                        <img
+                          class="tabs-slide-item__btn-img"
+                          src="Images/Invest-Objects/thailand-flag.svg"
+                          alt="thailand-flag"
+                        />
+                      </button>
+                    </div>
+                  </div>
+                  <i class="ri-arrow-right-s-line swiper-button-next"></i>
+                  <div class="tabs-slider-points swiper-pagination">
+                    <button class="tabs-slider-point active" type="button"></button>
+                    <button class="tabs-slider-point" type="button"></button>
+                    <button class="tabs-slider-point" type="button"></button>
+                  </div>
+                </div>
+                <div class="tabs-item-content">
+                  <p class="tabs-item-text">Собрано</p>
+                  <div class="collect-block">
+                    <p class="tabs-item-number">$75 000 (50%)</p>
+                    <p class="tabs-item-number">$150 000</p>
+                    <div class="tabs-range">
+                      <div class="tabs-range-fullness"></div>
+                    </div>
+                  </div>
+                  <ul class="tabs-item-ul">
+                    <li class="tabs-item-li">
+                      <p class="tabs-item-li__text">
+                        Стоимость объекта
+                        <i class="ri-question-line"></i>
+                      </p>
+                      <div class="tabs-item-li__border"></div>
+                      <p class="tabs-item-number">$150 000</p>
+                    </li>
+                    <li class="tabs-item-li">
+                      <p class="tabs-item-li__text">
+                        Количество инвесторов
+                        <i class="ri-question-line"></i>
+                      </p>
+                      <div class="tabs-item-li__border"></div>
+                      <p class="tabs-item-number">10</p>
+                    </li>
+                    <li class="tabs-item-li">
+                      <p class="tabs-item-li__text">Минимальный чек инвестиции</p>
+                      <div class="tabs-item-li__border"></div>
+                      <p class="tabs-item-number">$15 000</p>
+                    </li>
+                    <li class="tabs-item-li">
+                      <p class="tabs-item-li__text">
+                        Срок возврата инвестиций
+                        <i class="ri-question-line"></i>
+                      </p>
+                      <div class="tabs-item-li__border"></div>
+                      <p class="tabs-item-number">36 мес</p>
+                    </li>
+                  </ul>
+                  <div class="btn-row">
+                    <a
+                      href="Invest-Objects/Objects-addition/obj-additon-index.html"
+                      class="tabs-item-btn"
+                      >Подробнее</a
+                    >
+                    <button class="tabs-item-case-btn" type="button">
+                      <img src="Images/Invest-Objects/case.svg" alt="case-img" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="advantages" id="advantages">
+        <div class="container">
+          <div class="advantages__head">
+            <h2 class="advantages__heading">Риски — не ваша забота.</h2>
+          </div>
+          <h3 class="advantages__text">
+            <span class="advantages__text-span">Мы заинтересованы</span> в ваших доходах поскольку
+            мы зарабатываем когда<br />вы зарабатываете
+          </h3>
+        </div>
+        <div class="advantages__slider swiper">
+          <div class="advantages__btns-row">
+            <button class="advantages__btn-prev swiper-button-prev">
+              <i class="advantages__arrow-left ri-arrow-left-line"></i>
+            </button>
+            <button class="advantages__btn-next swiper-button-next">
+              <i class="advantages__arrow-right ri-arrow-right-line"></i>
+            </button>
+          </div>
+          <div class="advantages__row swiper-wrapper">
+            <div class="advantages__card swiper-slide">
+              <h6 class="advantages__card-heading">Защищаем<br />от инфляции</h6>
+              <p class="advantages__card-text">
+                Темп роста стоимости недвижимости обгоняет инфляцию
+              </p>
+              <button type="button" class="advantages__card-button">
+                <i class="ri-add-line"></i>
+              </button>
+            </div>
+            <div class="advantages__card swiper-slide">
+              <h6 class="advantages__card-heading">Даем надежный<br />инструмент</h6>
+              <p class="advantages__card-text">
+                В отличии от акций/облигаций/криптовалюты недвижимость обеспечена реальным
+                физическим активом
+              </p>
+              <button type="button" class="advantages__card-button">
+                <i class="ri-add-line"></i>
+              </button>
+            </div>
+            <div class="advantages__card swiper-slide">
+              <h6 class="advantages__card-heading">Снижаем страновые<br />риски</h6>
+              <p class="advantages__card-text">Инвестиции распределены по нескольким странам</p>
+              <button type="button" class="advantages__card-button">
+                <i class="ri-add-line"></i>
+              </button>
+            </div>
+            <div class="advantages__card swiper-slide">
+              <h6 class="advantages__card-heading">Берем на себя<br />управление объектом</h6>
+              <p class="advantages__card-text">
+                Решаем все вопросы эксплуатации и сдачи объекта в аренду
+              </p>
+              <button type="button" class="advantages__card-button">
+                <i class="ri-add-line"></i>
+              </button>
+            </div>
+            <div class="advantages__card swiper-slide">
+              <h6 class="advantages__card-heading">Все наши расчеты<br />проходят через Сбер</h6>
+              <p class="advantages__card-text">
+                Благодаря многолетней истории Сбера, сомнения в надежности банка отсутствуют
+              </p>
+              <button type="button" class="advantages__card-button">
+                <i class="ri-add-line"></i>
+              </button>
+            </div>
+            <div class="advantages__card swiper-slide">
+              <h6 class="advantages__card-heading">Недвижимость застрахована</h6>
+              <p class="advantages__card-text">
+                Страхование выступает одним из основных факторов развития экономики
+              </p>
+              <button type="button" class="advantages__card-button">
+                <i class="ri-add-line"></i>
+              </button>
+            </div>
+            <div class="advantages__card swiper-slide">
+              <h6 class="advantages__card-heading">Сами инвестируем в<br />наши объекты</h6>
+              <p class="advantages__card-text">
+                На инвестициях действительно можно заработать больше, чем на банковских вкладах
+              </p>
+              <button type="button" class="advantages__card-button">
+                <i class="ri-add-line"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="comparison" id="comparison">
+        <div class="container">
+          <h3 class="comparison__section-heading">Сравнение инвестиционных<br />инструментов</h3>
+        </div>
+        <div class="comparison__content swiper">
+          <div class="comparison__heading-column">
+            <h6 class="comparison__column-heading">Вид инвестиций</h6>
+            <h6 class="comparison__column-heading">Доход в валюте</h6>
+            <h6 class="comparison__column-heading">Доход в рублях</h6>
+            <h6 class="comparison__column-heading">Срок инвестиования</h6>
+            <h6 class="comparison__column-heading">Гарантия дохода</h6>
+            <h6 class="comparison__column-heading">Риск</h6>
+            <h6 class="comparison__column-heading">Защита от обесценивания</h6>
+          </div>
+          <div class="comparison__row swiper-wrapper">
+            <div class="conparison__item swiper-slide">
+              <div class="conparison__item-heading">
+                <svg class="conparison__item-arrow_wrapper" viewBox="0 0 25 14">
+                  <path
+                    class="conparison__item-arrow"
+                    d="M10.8181 0.473188C11.6872 -0.15769 12.8709 -0.157733 13.7401 0.473083L23.8136 7.78417C24.2817 8.12387 24.5581 8.66308 24.5581 9.2365V12.6615C24.5581 13.221 23.9471 13.573 23.4535 13.2979L12.2804 7.06979L1.10458 13.2998C0.610981 13.5749 0 13.2229 0 12.6634L0 9.23779C0 8.66442 0.276348 8.12525 0.744333 7.78555L10.8181 0.473188Z"
+                  />
+                </svg>
+                <h6 class="comparison__heading">зарубежная недвижимость</h6>
+              </div>
+              <ul class="comparison__ul">
+                <li class="conparison__item-text">Да</li>
+                <li class="conparison__item-text">Высокий</li>
+                <li class="conparison__item-text">Долгосрочный</li>
+                <li class="conparison__item-text">Нет</li>
+                <li class="conparison__item-text">Средний</li>
+                <li class="conparison__item-text">Да</li>
+              </ul>
+            </div>
+            <div class="conparison__item swiper-slide">
+              <div class="conparison__item-heading">
+                <svg class="conparison__item-arrow_wrapper" viewBox="0 0 25 14">
+                  <path
+                    class="conparison__item-arrow"
+                    d="M10.8181 0.473188C11.6872 -0.15769 12.8709 -0.157733 13.7401 0.473083L23.8136 7.78417C24.2817 8.12387 24.5581 8.66308 24.5581 9.2365V12.6615C24.5581 13.221 23.9471 13.573 23.4535 13.2979L12.2804 7.06979L1.10458 13.2998C0.610981 13.5749 0 13.2229 0 12.6634L0 9.23779C0 8.66442 0.276348 8.12525 0.744333 7.78555L10.8181 0.473188Z"
+                  />
+                </svg>
+                <h6 class="comparison__heading">российская недвижимость</h6>
+              </div>
+              <ul class="comparison__ul">
+                <li class="conparison__item-text">Нет</li>
+                <li class="conparison__item-text">Средний</li>
+                <li class="conparison__item-text">Долгосрочный</li>
+                <li class="conparison__item-text">Нет</li>
+                <li class="conparison__item-text">Средний</li>
+                <li class="conparison__item-text">Да</li>
+              </ul>
+            </div>
+            <div class="conparison__item swiper-slide">
+              <div class="conparison__item-heading">
+                <svg
+                  class="conparison__item-arrow_wrapper"
+                  width="25"
+                  height="14"
+                  viewBox="0 0 25 14"
+                >
+                  <path
+                    class="conparison__item-arrow"
+                    d="M10.8181 0.473188C11.6872 -0.15769 12.8709 -0.157733 13.7401 0.473083L23.8136 7.78417C24.2817 8.12387 24.5581 8.66308 24.5581 9.2365V12.6615C24.5581 13.221 23.9471 13.573 23.4535 13.2979L12.2804 7.06979L1.10458 13.2998C0.610981 13.5749 0 13.2229 0 12.6634L0 9.23779C0 8.66442 0.276348 8.12525 0.744333 7.78555L10.8181 0.473188Z"
+                  />
+                </svg>
+                <h6 class="comparison__heading">банковский депозит</h6>
+              </div>
+              <ul class="comparison__ul">
+                <li class="conparison__item-text">Нет</li>
+                <li class="conparison__item-text">Низкий</li>
+                <li class="conparison__item-text">Среднесрочный</li>
+                <li class="conparison__item-text">Да</li>
+                <li class="conparison__item-text">Низкий</li>
+                <li class="conparison__item-text">Да</li>
+              </ul>
+            </div>
+            <div class="conparison__item swiper-slide">
+              <div class="conparison__item-heading">
+                <svg
+                  class="conparison__item-arrow_wrapper"
+                  width="25"
+                  height="14"
+                  viewBox="0 0 25 14"
+                >
+                  <path
+                    class="conparison__item-arrow"
+                    d="M10.8181 0.473188C11.6872 -0.15769 12.8709 -0.157733 13.7401 0.473083L23.8136 7.78417C24.2817 8.12387 24.5581 8.66308 24.5581 9.2365V12.6615C24.5581 13.221 23.9471 13.573 23.4535 13.2979L12.2804 7.06979L1.10458 13.2998C0.610981 13.5749 0 13.2229 0 12.6634L0 9.23779C0 8.66442 0.276348 8.12525 0.744333 7.78555L10.8181 0.473188Z"
+                  />
+                </svg>
+                <h6 class="comparison__heading comparison__heading_one-word">криптовалюта</h6>
+              </div>
+              <ul class="comparison__ul">
+                <li class="conparison__item-text">Да</li>
+                <li class="conparison__item-text">Высокий</li>
+                <li class="conparison__item-text">Краткосрочный</li>
+                <li class="conparison__item-text">Нет</li>
+                <li class="conparison__item-text">Высокий</li>
+                <li class="conparison__item-text">Нет</li>
+              </ul>
+            </div>
+            <div class="conparison__item swiper-slide">
+              <div class="conparison__item-heading">
+                <svg
+                  class="conparison__item-arrow_wrapper"
+                  width="25"
+                  height="14"
+                  viewBox="0 0 25 14"
+                >
+                  <path
+                    class="conparison__item-arrow"
+                    d="M10.8181 0.473188C11.6872 -0.15769 12.8709 -0.157733 13.7401 0.473083L23.8136 7.78417C24.2817 8.12387 24.5581 8.66308 24.5581 9.2365V12.6615C24.5581 13.221 23.9471 13.573 23.4535 13.2979L12.2804 7.06979L1.10458 13.2998C0.610981 13.5749 0 13.2229 0 12.6634L0 9.23779C0 8.66442 0.276348 8.12525 0.744333 7.78555L10.8181 0.473188Z"
+                  />
+                </svg>
+                <h6 class="comparison__heading comparison__heading_one-word">облигации</h6>
+              </div>
+              <ul class="comparison__ul">
+                <li class="conparison__item-text">Нет</li>
+                <li class="conparison__item-text">Средний</li>
+                <li class="conparison__item-text">Долгосрочный</li>
+                <li class="conparison__item-text">Да</li>
+                <li class="conparison__item-text">Средний</li>
+                <li class="conparison__item-text">Да</li>
+              </ul>
+            </div>
+            <div class="conparison__item swiper-slide">
+              <div class="conparison__item-heading">
+                <svg
+                  class="conparison__item-arrow_wrapper"
+                  width="25"
+                  height="14"
+                  viewBox="0 0 25 14"
+                >
+                  <path
+                    class="conparison__item-arrow"
+                    d="M10.8181 0.473188C11.6872 -0.15769 12.8709 -0.157733 13.7401 0.473083L23.8136 7.78417C24.2817 8.12387 24.5581 8.66308 24.5581 9.2365V12.6615C24.5581 13.221 23.9471 13.573 23.4535 13.2979L12.2804 7.06979L1.10458 13.2998C0.610981 13.5749 0 13.2229 0 12.6634L0 9.23779C0 8.66442 0.276348 8.12525 0.744333 7.78555L10.8181 0.473188Z"
+                  />
+                </svg>
+                <h6 class="comparison__heading comparison__heading_one-word">акции</h6>
+              </div>
+              <ul class="comparison__ul">
+                <li class="conparison__item-text">Нет</li>
+                <li class="conparison__item-text">Высокий</li>
+                <li class="conparison__item-text">Краткосрочный</li>
+                <li class="conparison__item-text">Нет</li>
+                <li class="conparison__item-text">Высокий</li>
+                <li class="conparison__item-text">Нет</li>
+              </ul>
+            </div>
+          </div>
+          <div class="comparison__scrollbar swiper-scrollbar">
+            <div class="comparison__scrollbar-drag swiper-scrollbar-drag"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="reviews" id="reviews">
+        <div class="container">
+          <h3 class="reviews__heading">Отзывы</h3>
+          <div class="reviews__slider swiper">
+            <div class="reviews__slider-wrapper swiper-wrapper">
+              <div class="reviews__slide swiper-slide">
+                <img
+                  class="reviews__slide-img"
+                  src="Images/Reviews/person-1.svg"
+                  alt="person-1-img"
+                />
+                <div class="reviews__content">
+                  <div class="reviews__slide-heading">
+                    <p class="reviews__slide-head">Кристина Христорождественская</p>
+                    <p class="reviews__slide-head reviews__slide-head_style">
+                      <span>Product designer</span>
+                    </p>
+                  </div>
+                  <div class="reviews__slide-content">
+                    <img
+                      class="reviews__slide-content-img"
+                      src="Images/Reviews/arrows.svg"
+                      alt="arrows-img"
+                    />
+                    <p class="reviews__slide-content-text">
+                      Я всю жизнь инвестирую в недвижимость, и в трудные времена это очень спасает.
+                      Вот недавно снова купила квартиру под сдачу. Уже не первый раз обращаюсь в
+                      *company name*, они молодцы, отлично знают рынок недвижимости и всегда
+                      подбирают оптимальный вариант
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="reviews__slide swiper-slide">
+                <img
+                  class="reviews__slide-img"
+                  src="Images/Reviews/person-2.svg"
+                  alt="person-2-img"
+                />
+                <div class="reviews__content">
+                  <div class="reviews__slide-heading">
+                    <p class="reviews__slide-head">Константин Константинопольский</p>
+                    <p class="reviews__slide-head reviews__slide-head_style">
+                      <span>Figma CEO</span>
+                    </p>
+                  </div>
+                  <div class="reviews__slide-content">
+                    <img
+                      class="reviews__slide-content-img"
+                      src="Images/Reviews/arrows.svg"
+                      alt="arrows-img"
+                    />
+                    <p class="reviews__slide-content-text">
+                      Чтобы яснее понимать суть инвестирования в апартаменты и даже подобрать себе
+                      наиболее подходящий вариант для вложения, советую сервис *company name* Сразу
+                      все вопросы отпадут сами собой. Не благодарите
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="reviews__slide swiper-slide">
+                <img
+                  class="reviews__slide-img"
+                  src="Images/Reviews/person-3.svg"
+                  alt="person-3-img"
+                />
+                <div class="reviews__content">
+                  <div class="reviews__slide-heading">
+                    <p class="reviews__slide-head">Константин Константинопольский</p>
+                    <p class="reviews__slide-head reviews__slide-head_style">
+                      <span>Figma CEO</span>
+                    </p>
+                  </div>
+                  <div class="reviews__slide-content">
+                    <img
+                      class="reviews__slide-content-img"
+                      src="Images/Reviews/arrows.svg"
+                      alt="arrows-img"
+                    />
+                    <p class="reviews__slide-content-text">
+                      Чтобы яснее понимать суть инвестирования в апартаменты и даже подобрать себе
+                      наиболее подходящий вариант для вложения, советую сервис *company name* Сразу
+                      все вопросы отпадут сами собой. Не благодарите
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="reviews__slide swiper-slide">
+                <img
+                  class="reviews__slide-img"
+                  src="Images/Reviews/person-1.svg"
+                  alt="person-1-img"
+                />
+                <div class="reviews__content">
+                  <div class="reviews__slide-heading">
+                    <p class="reviews__slide-head">Кристина Христорождественская</p>
+                    <p class="reviews__slide-head reviews__slide-head_style">
+                      <span>Product designer</span>
+                    </p>
+                  </div>
+                  <div class="reviews__slide-content">
+                    <img
+                      class="reviews__slide-content-img"
+                      src="Images/Reviews/arrows.svg"
+                      alt="arrows-img"
+                    />
+                    <p class="reviews__slide-content-text">
+                      Я всю жизнь инвестирую в недвижимость, и в трудные времена это очень спасает.
+                      Вот недавно снова купила квартиру под сдачу. Уже не первый раз обращаюсь в
+                      *company name*, они молодцы, отлично знают рынок недвижимости и всегда
+                      подбирают оптимальный вариант
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="reviews-btns-container">
+              <div class="reviews__button-prev swiper-button-prev">
+                <svg
+                  class="reviews__button-prev-path"
+                  viewBox="0 0 10 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0.353249 11.1898C-0.11772 10.482 -0.117752 9.51797 0.353171 8.81013L5.81111 0.60627C6.06471 0.225094 6.46725 5.05676e-07 6.89532 5.39147e-07L9.45219 7.3907e-07C9.86988 7.71729e-07 10.1326 0.497567 9.92725 0.89955L5.27781 9.9989L9.92867 19.1004C10.1341 19.5024 9.87132 20 9.45362 20L6.89628 20C6.46825 20 6.06574 19.7749 5.81214 19.3938L0.353249 11.1898Z"
+                  />
+                </svg>
+              </div>
+              <div class="reviews__button-next swiper-button-next">
+                <svg
+                  class="reviews__button-next-path"
+                  viewBox="0 0 10 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M9.64675 8.81021C10.1177 9.51802 10.1178 10.482 9.64683 11.1899L4.18889 19.3937C3.93529 19.7749 3.53275 20 3.10468 20L0.547812 20C0.130123 20 -0.132645 19.5024 0.072754 19.1005L4.7222 10.0011L0.0713291 0.899563C-0.134084 0.49758 0.128683 -4.31489e-07 0.546378 -4.13231e-07L3.10372 -3.01446e-07C3.53175 -2.82736e-07 3.93426 0.225056 4.18786 0.606181L9.64675 8.81021Z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="reviews__scrollbar swiper-scrollbar">
+              <div class="reviews__scrollbar-drag swiper-scrollbar-drag"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="news" id="news">
+        <div class="container">
+          <h3 class="news__heading">Новости</h3>
+          <div class="news-tabs">
+            <div class="news-tabs__head">
+              <button type="button" class="news-tabs__heading all active">Все</button>
+              <button type="button" class="news-tabs__heading new">Новости</button>
+              <button type="button" class="news-tabs__heading blog">Блог</button>
+              <button type="button" class="news-tabs__heading important">Важное</button>
+              <a href="News/news-index.html" class="news-tabs__bth-watch-all">
+                Смотреть всё
+                <i class="news-tabs__btn-arrow ri-arrow-right-line"></i>
+              </a>
+            </div>
+            <div class="news-tabs-content" id="news-tabs-content">
+              <div class="news-tabs-card news-tabs-card_with-back all new">
+                <div class="news-tabs-card-head">
+                  <a
+                    href="News/News-addition/news-addition-index.html"
+                    class="news-tabs-card__btn news-tabs-card__btn_pastel-green"
+                    >Новости</a
+                  >
+                  <i class="news-tabs-card__arrow ri-arrow-right-up-line"></i>
+                </div>
+                <p class="news-tabs-card__text">
+                  Азиатские будни, или как мы зарабатываем на недвижим...
+                </p>
+              </div>
+              <div class="news-tabs-card news-tabs-card_with-img all new">
+                <img
+                  class="news-tabs-card__img"
+                  src="Images/News/interior.png"
+                  alt="interior-img"
+                />
+                <div class="news-tabs-card-head">
+                  <a
+                    href="News/News-addition/news-addition-index.html"
+                    class="news-tabs-card__btn news-tabs-card__btn_pastel-green"
+                    >Новости</a
+                  >
+                  <i class="news-tabs-card__arrow ri-arrow-right-up-line"></i>
+                </div>
+                <p class="news-tabs-card__text">Текст новости текст новости текст новости</p>
+              </div>
+              <div class="news-tabs-wrapper">
+                <div class="news-tabs-card all new">
+                  <div class="news-tabs-card-head">
+                    <a
+                      href="News/News-addition/news-addition-index.html"
+                      class="news-tabs-card__btn news-tabs-card__btn_pastel-green"
+                      >Новости</a
+                    >
+                    <i class="news-tabs-card__arrow ri-arrow-right-up-line"></i>
+                  </div>
+                  <p class="news-tabs-card__text">Текст новости текст новости текст новости</p>
+                </div>
+                <div class="news-tabs-card all blog">
+                  <div class="news-tabs-card-head">
+                    <a
+                      href="News/News-addition/news-addition-index.html"
+                      class="news-tabs-card__btn"
+                      >Блог</a
+                    >
+                    <i class="news-tabs-card__arrow ri-arrow-right-up-line"></i>
+                  </div>
+                  <p class="news-tabs-card__text">Обустройство объектов идет полны...</p>
+                </div>
+              </div>
+              <div class="news-tabs-wrapper">
+                <div class="news-tabs-card all new">
+                  <div class="news-tabs-card-head">
+                    <a
+                      href="News/News-addition/news-addition-index.html"
+                      class="news-tabs-card__btn news-tabs-card__btn_pastel-green"
+                      >Новости</a
+                    >
+                    <i class="news-tabs-card__arrow ri-arrow-right-up-line"></i>
+                  </div>
+                  <p class="news-tabs-card__text">Текст новости текст новости текст новости</p>
+                </div>
+                <div class="news-tabs-card all blog">
+                  <div class="news-tabs-card-head">
+                    <a
+                      href="News/News-addition/news-addition-index.html"
+                      class="news-tabs-card__btn"
+                      >Блог</a
+                    >
+                    <i class="news-tabs-card__arrow ri-arrow-right-up-line"></i>
+                  </div>
+                  <p class="news-tabs-card__text">Текст новости текст новости текст новости</p>
+                </div>
+              </div>
+              <div class="news-tabs-card news-tabs-card_with-img all important">
+                <div class="news-tabs-card-head">
+                  <a
+                    href="News/News-addition/news-addition-index.html"
+                    class="news-tabs-card__btn news-tabs-card__btn_black"
+                    >Важное</a
+                  >
+                  <i class="news-tabs-card__arrow ri-arrow-right-up-line"></i>
+                </div>
+                <p class="news-tabs-card__text">Текст новости текст новости текст новости</p>
+              </div>
+              <div class="news-tabs-card news-tabs-card_with-back all new">
+                <div class="news-tabs-card-head">
+                  <a
+                    href="News/News-addition/news-addition-index.html"
+                    class="news-tabs-card__btn news-tabs-card__btn"
+                    >Новости</a
+                  >
+                  <i class="news-tabs-card__arrow ri-arrow-right-up-line"></i>
+                </div>
+                <p class="news-tabs-card__text">Текст новости текст новости текст новости</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-wrapper">
+        <section class="faq" id="faq">
+          <div class="container">
+            <h3 class="faq__heading">Часто задаваемые вопросы</h3>
+            <div class="faq__tabs">
+              <div class="faq__tabs-head">
+                <button class="faq__tabs-heading active" type="button">Раздел 1</button>
+                <button class="faq__tabs-heading" type="button">Раздел 2</button>
+                <button class="faq__tabs-heading" type="button">Раздел 3</button>
+                <button class="faq__tabs-heading" type="button">Раздел 4</button>
+              </div>
+              <div class="faq__tabs-content">
+                <div class="faq__tabs-item active">
+                  <div class="faq__tabs-item-content">
+                    <h3 class="faq__tabs-item-heading">Много ли нужно денег?</h3>
+                    <p class="faq__tabs-item-text">
+                      С учётом сложившейся международной обстановки, социально-экономическое
+                      развитие напрямую зависит от форм воздействия. Приятно, граждане, наблюдать,
+                      как явные признаки победы институционализации, которые представляют собой
+                      яркий пример континентально-европейского типа политической культуры, будут
+                      объединены в целые кластеры себе подобных.<br /><br />Как уже неоднократно
+                      упомянуто, акционеры крупнейших компаний освещают чрезвычайно интересные
+                      особенности картины в целом, однако конкретные выводы, разумеется, преданы
+                      социально-демократической анафеме.
+                    </p>
+                  </div>
+                  <picture>
+                    <source
+                      srcset="Images/FAQ/tags-item-img-mobile.png"
+                      media="(max-width: 768px)"
+                    />
+                    <img
+                      class="faq__tabs-item-img"
+                      src="Images/FAQ/tags-item-img.png"
+                      alt="beaty-view-img"
+                    />
+                  </picture>
+                </div>
+                <div class="faq__tabs-item">
+                  <div class="faq__tabs-item-content">
+                    <h3 class="faq__tabs-item-heading">Это безопасно?</h3>
+                    <p class="faq__tabs-item-text">
+                      С учётом сложившейся международной обстановки, социально-экономическое
+                      развитие напрямую зависит от форм воздействия. Приятно, граждане, наблюдать,
+                      как явные признаки победы институционализации, которые представляют собой
+                      яркий пример континентально-европейского типа политической культуры, будут
+                      объединены в целые кластеры себе подобных.<br /><br />Как уже неоднократно
+                      упомянуто, акционеры крупнейших компаний освещают чрезвычайно интересные
+                      особенности картины в целом, однако конкретные выводы, разумеется, преданы
+                      социально-демократической анафеме.
+                    </p>
+                  </div>
+                  <picture>
+                    <source
+                      srcset="Images/FAQ/tags-item-img-mobile.png"
+                      media="(max-width: 768px)"
+                    />
+                    <img
+                      class="faq__tabs-item-img"
+                      src="Images/FAQ/tags-item-img.png"
+                      alt="beaty-view-img"
+                    />
+                  </picture>
+                </div>
+                <div class="faq__tabs-item">
+                  <div class="faq__tabs-item-content">
+                    <h3 class="faq__tabs-item-heading">Почему именно вы?</h3>
+                    <p class="faq__tabs-item-text">
+                      С учётом сложившейся международной обстановки, социально-экономическое
+                      развитие напрямую зависит от форм воздействия. Приятно, граждане, наблюдать,
+                      как явные признаки победы институционализации, которые представляют собой
+                      яркий пример континентально-европейского типа политической культуры, будут
+                      объединены в целые кластеры себе подобных.<br /><br />Как уже неоднократно
+                      упомянуто, акционеры крупнейших компаний освещают чрезвычайно интересные
+                      особенности картины в целом, однако конкретные выводы, разумеется, преданы
+                      социально-демократической анафеме.
+                    </p>
+                  </div>
+                  <picture>
+                    <source
+                      srcset="Images/FAQ/tags-item-img-mobile.png"
+                      media="(max-width: 768px)"
+                    />
+                    <img
+                      class="faq__tabs-item-img"
+                      src="Images/FAQ/tags-item-img.png"
+                      alt="beaty-view-img"
+                    />
+                  </picture>
+                </div>
+                <div class="faq__tabs-item">
+                  <div class="faq__tabs-item-content">
+                    <h3 class="faq__tabs-item-heading">Где гарантия?</h3>
+                    <p class="faq__tabs-item-text">
+                      С учётом сложившейся международной обстановки, социально-экономическое
+                      развитие напрямую зависит от форм воздействия. Приятно, граждане, наблюдать,
+                      как явные признаки победы институционализации, которые представляют собой
+                      яркий пример континентально-европейского типа политической культуры, будут
+                      объединены в целые кластеры себе подобных.<br /><br />Как уже неоднократно
+                      упомянуто, акционеры крупнейших компаний освещают чрезвычайно интересные
+                      особенности картины в целом, однако конкретные выводы, разумеется, преданы
+                      социально-демократической анафеме.
+                    </p>
+                  </div>
+                  <picture>
+                    <source
+                      srcset="Images/FAQ/tags-item-img-mobile.png"
+                      media="(max-width: 768px)"
+                    />
+                    <img
+                      class="faq__tabs-item-img"
+                      src="Images/FAQ/tags-item-img.png"
+                      alt="beaty-view-img"
+                    />
+                  </picture>
+                </div>
+              </div>
+            </div>
+            <div class="faq__details">
+              <div class="faq__details-item">
+                <div class="faq__details-item-head">
+                  Каковы текущие тренды рынка?
+                  <img src="Images/FAQ/check-mark.svg" alt="check-mark-img" />
+                </div>
+                <div class="faq__details-item-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo corporis suscipit,
+                  veniam sunt reiciendis sequi magni itaque doloribus provident optio odio quaerat
+                  reprehenderit voluptates dolore. Similique harum officiis voluptas necessitatibus.
+                  <i class="faq__details-item-xmark fa-solid fa-xmark"></i>
+                </div>
+              </div>
+              <div class="faq__details-item">
+                <div class="faq__details-item-head">
+                  Покупать ли недвижимость во время кризиса?
+                  <img src="Images/FAQ/check-mark.svg" alt="check-mark-img" />
+                </div>
+                <div class="faq__details-item-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo corporis suscipit,
+                  veniam sunt reiciendis sequi magni itaque doloribus provident optio odio quaerat
+                  reprehenderit voluptates dolore. Similique harum officiis voluptas necessitatibus.
+                  <i class="faq__details-item-xmark fa-solid fa-xmark"></i>
+                </div>
+              </div>
+              <div class="faq__details-item">
+                <div class="faq__details-item-head">
+                  Рассматриваете ли коммерческие площадки?
+                  <img src="Images/FAQ/check-mark.svg" alt="check-mark-img" />
+                </div>
+                <div class="faq__details-item-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo corporis suscipit,
+                  veniam sunt reiciendis sequi magni itaque doloribus provident optio odio quaerat
+                  reprehenderit voluptates dolore. Similique harum officiis voluptas necessitatibus.
+                  <i class="faq__details-item-xmark fa-solid fa-xmark"></i>
+                </div>
+              </div>
+              <div class="faq__details-item">
+                <div class="faq__details-item-head">
+                  Каковы риски?
+                  <img src="Images/FAQ/check-mark.svg" alt="check-mark-img" />
+                </div>
+                <div class="faq__details-item-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo corporis suscipit,
+                  veniam sunt reiciendis sequi magni itaque doloribus provident optio odio quaerat
+                  reprehenderit voluptates dolore. Similique harum officiis voluptas necessitatibus.
+                  <i class="faq__details-item-xmark fa-solid fa-xmark"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <section class="team" id="team">
+        <div class="container">
+          <h3 class="team__heading">Наша команда</h3>
+          <div class="team__content">
+            <div class="team__content-item">
+              <picture>
+                <source
+                  class="team__img"
+                  srcset="Images/Team/fedor-mobile.png"
+                  media="(max-width: 768px)"
+                />
+                <img src="Images/Team/fedor.png" alt="person-img" />
+              </picture>
+              <div class="team-card">
+                <ul class="team-card__heading-ul">
+                  <li class="team-card__heading-li">
+                    <img src="Images/Team/arrow.svg" alt="arrow-img" />
+                  </li>
+                  <li class="team-card__heading-li">
+                    <p class="team-card__person-name">Фёдор Двинятин</p>
+                  </li>
+                  <li class="team-card__heading-li">
+                    <p class="team-card__person-skill">Co-founder, CEO</p>
+                  </li>
+                </ul>
+                <p class="team-card__text">
+                  В своём стремлении повысить качество жизни, они забывают, что сложившаяся
+                  структура организации представляет собой интересный эксперимент проверки
+                  первоочередных требований.
+                </p>
+              </div>
+            </div>
+            <div class="team__content-item">
+              <picture>
+                <source
+                  class="team__img"
+                  srcset="Images/Team/mikhail-mobile.png"
+                  media="(max-width: 768px)"
+                />
+                <img src="Images/Team/mikhail.png" alt="person-img" />
+              </picture>
+              <div class="team-card">
+                <ul class="team-card__heading-ul">
+                  <li class="team-card__heading-li">
+                    <img src="Images/Team/arrow.svg" alt="arrow-img" />
+                  </li>
+                  <li class="team-card__heading-li">
+                    <p class="team-card__person-name">Михаил Дворянов</p>
+                  </li>
+                  <li class="team-card__heading-li">
+                    <p class="team-card__person-skill">Co-founder</p>
+                  </li>
+                </ul>
+                <p class="team-card__text">
+                  Задача организации, в особенности же постоянный количественный рост и сфера нашей
+                  активности обеспечивает актуальность системы массового участия.
+                </p>
+              </div>
+            </div>
+            <div class="team__content-item">
+              <picture>
+                <source
+                  class="team__img"
+                  srcset="Images/Team/ricardo-mobile.png"
+                  media="(max-width: 768px)"
+                />
+                <img src="Images/Team/ricardo.png" alt="person-img" />
+              </picture>
+              <div class="team-card">
+                <ul class="team-card__heading-ul">
+                  <li class="team-card__heading-li">
+                    <img src="Images/Team/arrow.svg" alt="arrow-img" />
+                  </li>
+                  <li class="team-card__heading-li">
+                    <p class="team-card__person-name">Рикардо Диаз</p>
+                  </li>
+                  <li class="team-card__heading-li">
+                    <p class="team-card__person-skill">Future CEO</p>
+                  </li>
+                </ul>
+                <p class="team-card__text">
+                  Приятно, граждане, наблюдать, как независимые государства, инициированные
+                  исключительно синтетически, призваны к ответу.
+                </p>
+              </div>
+            </div>
+            <div class="team__content-item">
+              <picture>
+                <source
+                  class="team__img"
+                  srcset="Images/Team/evgeniy-mobile.png"
+                  media="(max-width: 768px)"
+                />
+                <img src="Images/Team/evgeniy.png" alt="person-img" />
+              </picture>
+              <div class="team-card">
+                <ul class="team-card__heading-ul">
+                  <li class="team-card__heading-li">
+                    <img src="Images/Team/arrow.svg" alt="arrow-img" />
+                  </li>
+                  <li class="team-card__heading-li">
+                    <p class="team-card__person-name">Евгений Сидоров</p>
+                  </li>
+                  <li class="team-card__heading-li">
+                    <p class="team-card__person-skill">Product designer</p>
+                  </li>
+                </ul>
+                <p class="team-card__text">
+                  Таким образом, убеждённость некоторых оппонентов требует от нас анализа позиций,
+                  занимаемых участниками в отношении поставленных задач.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div class="section-wrapper">
+      <footer id="footer">
+        <div class="container">
+          <picture>
+            <source srcset="Images/Footer/logo-mobile.svg" media="(max-width: 768px)" />
+            <img src="Images/Footer/logo.svg" alt="logo-img" />
+          </picture>
+          <div class="footer__item footer__item_nav-item">
+            <div class="footer__item-content">
+              <p class="footer__item-content-heading">Меню</p>
+              <div class="footer__item-content-row">
+                <ul class="footer__ul">
+                  <li><a href="#" class="footer__link">Проекты</a></li>
+                  <li><a href="#" class="footer__link">Как это работает</a></li>
+                  <li><a href="" class="footer__link">О продукте</a></li>
+                </ul>
+                <ul class="footer__ul">
+                  <li><a href="#" class="footer__link">Блог</a></li>
+                  <li><a href="#" class="footer__link">Партнёрам</a></li>
+                  <li><a href="#" class="footer__link">Команда</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer__item-content">
+              <p class="footer__item-content-heading">Контакты</p>
+              <div class="footer__item-content-row">
+                <ul class="footer__ul">
+                  <li class="footer__li">
+                    <img src="Images/Footer/cursor.svg" alt="cursor-img" />
+                    <a href="#" class="footer__link footer__link_wide"
+                      >Wongaya Gede, Penebel, Tabanan Regency, Bali</a
+                    >
+                  </li>
+                  <li class="footer__li for-mobile" id="footer__li">
+                    <img src="Images/Footer/tel.svg" alt="tel-img" />
+                    <a href="#" class="footer__link">+1 321 899 00 01</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <hr class="footer-divider" />
+          <div class="footer__item footer__item_info-item">
+            <p class="footer__item-text">Политика конфиденциальности</p>
+            <p class="footer__item-text">© 2024 Сайт не является публичной офертой</p>
+            <div class="footer__item-btns-row">
+              <a href="Team/team-index.html" class="footer__item-btn">Обратный звонок</a>
+              <button type="button" class="footer__item-btn footer__item-btn_socials">
+                <svg class="footer__item-btn-img">
+                  <path
+                    d="M4.64 0H11.36C13.92 0 16 2.08 16 4.64V11.36C16 12.5906 15.5111 13.7708 14.641 14.641C13.7708 15.5111 12.5906 16 11.36 16H4.64C2.08 16 0 13.92 0 11.36V4.64C0 3.4094 0.488856 2.22919 1.35902 1.35902C2.22919 0.488856 3.4094 0 4.64 0ZM4.48 1.6C3.71618 1.6 2.98364 1.90343 2.44353 2.44353C1.90343 2.98364 1.6 3.71618 1.6 4.48V11.52C1.6 13.112 2.888 14.4 4.48 14.4H11.52C12.2838 14.4 13.0164 14.0966 13.5565 13.5565C14.0966 13.0164 14.4 12.2838 14.4 11.52V4.48C14.4 2.888 13.112 1.6 11.52 1.6H4.48ZM12.2 2.8C12.4652 2.8 12.7196 2.90536 12.9071 3.09289C13.0946 3.28043 13.2 3.53478 13.2 3.8C13.2 4.06522 13.0946 4.31957 12.9071 4.50711C12.7196 4.69464 12.4652 4.8 12.2 4.8C11.9348 4.8 11.6804 4.69464 11.4929 4.50711C11.3054 4.31957 11.2 4.06522 11.2 3.8C11.2 3.53478 11.3054 3.28043 11.4929 3.09289C11.6804 2.90536 11.9348 2.8 12.2 2.8ZM8 4C9.06087 4 10.0783 4.42143 10.8284 5.17157C11.5786 5.92172 12 6.93913 12 8C12 9.06087 11.5786 10.0783 10.8284 10.8284C10.0783 11.5786 9.06087 12 8 12C6.93913 12 5.92172 11.5786 5.17157 10.8284C4.42143 10.0783 4 9.06087 4 8C4 6.93913 4.42143 5.92172 5.17157 5.17157C5.92172 4.42143 6.93913 4 8 4ZM8 5.6C7.36348 5.6 6.75303 5.85286 6.30294 6.30294C5.85286 6.75303 5.6 7.36348 5.6 8C5.6 8.63652 5.85286 9.24697 6.30294 9.69706C6.75303 10.1471 7.36348 10.4 8 10.4C8.63652 10.4 9.24697 10.1471 9.69706 9.69706C10.1471 9.24697 10.4 8.63652 10.4 8C10.4 7.36348 10.1471 6.75303 9.69706 6.30294C9.24697 5.85286 8.63652 5.6 8 5.6Z"
+                  />
+                </svg>
+                <svg class="footer__item-btn-img">
+                  <path
+                    d="M8.60001 0C4.18934 0 0.600006 3.58933 0.600006 8C0.600006 12.4107 4.18934 16 8.60001 16C13.0107 16 16.6 12.4107 16.6 8C16.6 3.58933 13.0107 0 8.60001 0ZM8.60001 1.33333C12.29 1.33333 15.2667 4.31 15.2667 8C15.2683 9.59598 14.696 11.1393 13.6542 12.3484C12.6125 13.5575 11.1707 14.3517 9.59201 14.586V9.944H11.4907L11.7887 8.01533H9.59201V6.962C9.59201 6.162 9.85534 5.45067 10.604 5.45067H11.8073V3.768C11.596 3.73933 11.1487 3.67733 10.3033 3.67733C8.53801 3.67733 7.50334 4.60933 7.50334 6.73333V8.01533H5.68867V9.944H7.50334V14.5693C5.94651 14.3131 4.5315 13.5117 3.51113 12.3082C2.49077 11.1048 1.93153 9.57778 1.93334 8C1.93334 4.31 4.91001 1.33333 8.60001 1.33333Z"
+                  />
+                </svg>
+                <svg class="footer__item-btn-img">
+                  <path
+                    d="M2.01819 0C1.53704 0.00342742 1.07657 0.196086 0.736333 0.536321C0.396098 0.876556 0.20344 1.33703 0.200012 1.81818V14.1818C0.200012 15.176 1.02401 16 2.01819 16H14.3818C15.376 16 16.2 15.176 16.2 14.1818V1.81818C16.2 0.824 15.376 0 14.3818 0H2.01819ZM2.01819 1.45455H14.3818C14.5891 1.45455 14.7455 1.61091 14.7455 1.81818V14.1818C14.7465 14.2298 14.7377 14.2776 14.7198 14.3221C14.7019 14.3667 14.6751 14.4072 14.6412 14.4412C14.6072 14.4751 14.5667 14.5019 14.5222 14.5198C14.4776 14.5377 14.4299 14.5464 14.3818 14.5455H2.01819C1.97014 14.5465 1.92237 14.5379 1.87775 14.52C1.83314 14.5021 1.79262 14.4754 1.75863 14.4414C1.72464 14.4074 1.6979 14.3669 1.68001 14.3223C1.66212 14.2776 1.65346 14.2299 1.65456 14.1818V1.81818C1.65456 1.61091 1.81092 1.45455 2.01819 1.45455ZM4.15492 2.70473C3.98826 2.70071 3.82247 2.73006 3.66732 2.79106C3.51217 2.85206 3.37078 2.94348 3.25148 3.05994C3.13219 3.17639 3.03738 3.31553 2.97266 3.46917C2.90793 3.6228 2.87459 3.78783 2.87459 3.95455C2.87459 4.12126 2.90793 4.28629 2.97266 4.43993C3.03738 4.59356 3.13219 4.7327 3.25148 4.84915C3.37078 4.96561 3.51217 5.05703 3.66732 5.11803C3.82247 5.17903 3.98826 5.20838 4.15492 5.20436C4.48117 5.19649 4.79142 5.06136 5.01938 4.82783C5.24734 4.5943 5.37495 4.28089 5.37495 3.95455C5.37495 3.6282 5.24734 3.31479 5.01938 3.08126C4.79142 2.84773 4.48117 2.7126 4.15492 2.70473ZM10.7222 6.02255C9.68001 6.02255 8.98692 6.59345 8.70038 7.136H8.65456V6.18182H6.60874V13.0909H8.74547V9.68145C8.74547 8.78109 8.92438 7.90909 10.0407 7.90909C11.1404 7.90909 11.1549 8.92582 11.1549 9.72727V13.0909H13.2909V9.29527C13.2909 7.43782 12.8953 6.02255 10.7222 6.02255ZM3.1091 6.18182V13.0909H5.26838V6.18182H3.1091Z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <button class="page-btn-up" type="button" id="page-btn-up">
+      <i class="page-btn-up-arrow ri-arrow-up-line"></i>
+    </button>
+  </body>
+</html>

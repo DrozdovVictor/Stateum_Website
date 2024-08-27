@@ -1,0 +1,56 @@
+@import url(../style.css);
+
+/* Header */
+header {
+  background-image: none !important;
+  min-height: 103px !important;
+}
+
+header + main {
+  margin-top: 0px !important;
+}
+
+h3 {
+  font-family: 'Manrope', 'Intel', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 53.2px;
+  padding: 0px;
+}
+
+p {
+  max-width: 695px;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+.invest-bag-content {
+  height: calc(100vh - 103px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 24px;
+  text-align: center;
+}
+
+.invest-bag-content-link {
+  margin-top: 16px;
+  padding: 8px 60px;
+  border: 2px solid var(--main-color);
+  border-radius: 14px;
+  background-color: var(--main-color);
+  color: var(--white);
+
+  font-family: 'Inter';
+  font-size: 14px;
+  line-height: 19.6px;
+
+  transition: .3s;
+}
+
+.invest-bag-content-link:hover {
+  cursor: pointer;
+  background-color: transparent;
+  color: var(--main-color);
+}

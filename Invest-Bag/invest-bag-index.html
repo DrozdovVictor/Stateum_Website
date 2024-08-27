@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stateum Website</title>
+    <link rel="shortcut icon" href="../Images/Header/web-logo.svg" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css"
+    />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="invest-bag-style.css" />
+    <link rel="stylesheet" href="invest-bag-media.css" />
+    <script src="invest-bag-script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="container header__container">
+        <nav class="header__nav">
+          <img class="header__logo" src="../Images/Header/logo.svg" alt="logo-img" />
+          <div class="header__nav-content">
+            <a href="../index.html" class="header__nav-content-a">Проекты</a>
+            <a href="../index.html" class="header__nav-content-a">Как это работает</a>
+            <a href="../index.html" class="header__nav-content-a">О продукте</a>
+            <a href="../index.html" class="header__nav-content-a">Блог</a>
+            <a href="../Team/team-index.html" class="header__nav-content-a">Партнёрам</a>
+            <a href="../index.html" class="header__nav-content-a">Команда</a>
+            <a href="../index.html" class="header__nav-content-a">Контакты</a>
+          </div>
+          <div class="header__nav-btns">
+            <a href="">
+              <svg class="header__nav-tg-img">
+                <path
+                  d="M27.2097 11.6545C27.2097 11.6545 29.1523 10.897 28.9904 12.7366C28.9365 13.4942 28.4508 16.1454 28.073 19.0131L26.778 27.5079C26.778 27.5079 26.67 28.7524 25.6987 28.9688C24.7274 29.1852 23.2704 28.2113 23.0005 27.9949C22.7847 27.8326 18.9534 25.3977 17.6043 24.2074C17.2265 23.8827 16.7948 23.2334 17.6582 22.476L23.3244 17.0653C23.9719 16.416 24.6194 14.9009 21.9213 16.7406L14.3666 21.8808C14.3666 21.8808 13.5032 22.4219 11.8843 21.9349L8.37671 20.8527C8.37671 20.8527 7.08161 20.0412 9.29408 19.2295C14.6904 16.6865 21.3278 14.0893 27.2097 11.6545Z"
+                />
+              </svg>
+            </a>
+            <div class="header__nav-mobile" id="header__nav-mobile">
+              <div class="header__nav-mobile-content" id="header__nav-mobile-content">
+                <img class="header__logo" src="../Images/Header/logo.svg" alt="logo-img" />
+                <ul class="header__nav-mobile-content-ul">
+                  <li class="header__nav-mobile-content-li">
+                    <a href="../index.html" class="header__nav-mobile-content-text">Проекты</a>
+                  </li>
+                  <li class="header__nav-mobile-content-li">
+                    <a href="../index.html" class="header__nav-mobile-content-text"
+                      >Как это работает</a
+                    >
+                  </li>
+                  <li class="header__nav-mobile-content-li">
+                    <a href="../index.html" class="header__nav-mobile-content-text">О продукте</a>
+                  </li>
+                  <li class="header__nav-mobile-content-li">
+                    <a href="../index.html" class="header__nav-mobile-content-text">Блог</a>
+                  </li>
+                  <li class="header__nav-mobile-content-li">
+                    <a href="../Team/team-index.html" class="header__nav-mobile-content-text"
+                      >Партнёрам</a
+                    >
+                  </li>
+                  <li class="header__nav-mobile-content-li">
+                    <a href="../index.html" class="header__nav-mobile-content-text">Команда</a>
+                  </li>
+                  <li class="header__nav-mobile-content-li">
+                    <a href="../index.html" class="header__nav-mobile-content-text">Контакты</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="invest-bag-content" id="invest-bag-content">
+          <h3>Ваш инвестиционный портфель пуст</h3>
+          <p>Но это легко исправить, ознакомьтесь с проверенными нами инвестиционными объектами</p>
+          <button type="button" class="invest-bag-content-link" id="invest-bag-content-btn">
+            Ознакомиться
+            <i class="ri-arrow-right-line"></i>
+          </button>
+        </div>
+      </div>
+      <div class="objects__tabs-modal" id="objects-tabs-modal">
+        <div class="objects__tabs-modal-content">
+          <h3 class="objects__tabs-modal-heading">
+            Чтобы разблокировать доступ к объектам, введите код активации
+          </h3>
+          <p class="objects__tabs-modal-text">
+            Его можно получить
+            <a href="../Team/team-index.html" class="objects__tabs-modal-mark">написав нам</a>
+          </p>
+          <form
+            class="objects__tabs-modal-form"
+            id="objects__tabs-modal-form"
+            action="../Invest-Objects/objects-index.html"
+            method="get"
+          >
+            <div class="input-wrapper">
+              <input
+                class="objects__tabs-modal-input"
+                type="password"
+                required
+                placeholder="Введите код"
+                minlength="5"
+              />
+              <p class="error-text" id="error-text">Error</p>
+            </div>
+            <button class="objects__tabs-modal-btn" form="objects__tabs-modal-form" type="submit">
+              Разблокировать
+              <i class="objects__tabs-modal-arrow ri-arrow-right-line"></i>
+            </button>
+          </form>
+        </div>
+        <button type="button" class="objects__tabs-modal-btn-close" id="objects-modal-btn-close">
+          <i class="ri-close-large-fill"></i>
+        </button>
+      </div>
+    </main>
+  </body>
+</html>

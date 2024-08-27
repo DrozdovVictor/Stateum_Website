@@ -1,0 +1,85 @@
+@media (min-width: 320px) {
+  /* Header */
+
+  .header__nav-content, .header__nav-btn {
+    display: none;
+  }
+
+  .header__nav-mobile {
+    display: block;
+  }
+
+  h3 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 28.8px;
+    text-align: center;
+  }
+
+  h5 {
+    font-size: 20px;
+    line-height: normal;
+    text-align: center;
+  }
+
+   .invest-objects-tabs {
+    row-gap: 30px;
+  }
+
+  .invest-objects-tabs__content-capital-gains {
+    row-gap: 30px;
+  }
+
+  .invest-objects-tabs__heading {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .invest-objects-tabs__content-capital-gains-row, .invest-objects-tabs__content-rental-income-row {
+    justify-content: center;
+  }
+
+  .tabs-item {
+    width: 300px;
+  }
+}
+
+@media (min-width: 768px) {
+  /* Main */
+
+  .invest-objects-tabs {
+    row-gap: 40px;
+  }
+
+  .invest-objects-tabs__content-capital-gains {
+    row-gap: 40px;
+  }
+}
+
+@media (min-width: 1050px) {
+  /* Header */
+
+  .header__nav-mobile {
+    display: none;
+  }
+
+  .header__nav-content {
+    display: flex;
+  }
+}
+
+@media (min-width: 1250px) {
+  /* Header */
+
+  .header__nav-btn {
+    display: flex;
+    color: #fff;
+  }
+}
+
+@media (min-width: 1920px) {
+  .container {
+      max-width: 1850px;
+  }
+}
